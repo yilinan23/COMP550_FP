@@ -1,6 +1,6 @@
 # Discovering Syntactic Failure Cases via Reinforcement Learning
 
-This repository contains the code and result artifacts for a COMP 550 NLP final
+This repository contains the code and result for a COMP 550 NLP final
 project on targeted syntactic evaluation of language models.
 
 The project asks whether reinforcement learning can discover harder
@@ -8,10 +8,6 @@ subject-verb agreement minimal pairs than a controlled benchmark, while keeping
 the generated data distribution-matched to the benchmark. The focus is not on
 training a new language model, but on using a lightweight RL search procedure
 to find syntactic test cases where existing language models fail.
-
-The report source and PDF are intentionally not included in this public export.
-This repository contains the reproducibility package: code, configs, generated
-datasets, analysis outputs, and figures.
 
 ## Research Question
 
