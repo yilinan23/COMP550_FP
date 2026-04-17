@@ -1,13 +1,12 @@
 # Discovering Syntactic Failure Cases via Reinforcement Learning
 
-This folder is a minimal, report-focused export of the COMP 550 syntax RL
-project. It contains only the code, datasets, outputs, and ACL report artifacts
-needed to reproduce or inspect the results discussed in the paper.
+This folder is a minimal, result-focused export of the COMP 550 syntax RL
+project. It contains only the code, datasets, and outputs needed to reproduce
+or inspect the results discussed in the project report. The report source and
+PDF are intentionally not included in this GitHub export.
 
 ## Contents
 
-- `report_acl.tex`, `custom.bib`, `acl.sty`, `acl_natbib.bst`: ACL-format report source.
-- `report_acl.pdf`: compiled report, if available from the local build.
 - `src/syntax_rl/`: project code used for generation, scoring, benchmark-vs-RL comparison, subtype analysis, and sanity checks.
 - `configs/`: report-relevant experiment configs.
 - `data/generated/`: controlled benchmark and distribution-aware RL JSONL datasets.
@@ -16,19 +15,9 @@ needed to reproduce or inspect the results discussed in the paper.
 - `outputs/sanity_check/`: quality-control and error-analysis outputs.
 - `outputs/subtype_analysis_multi_model/`: subtype-level multi-model analysis outputs.
 
-The export intentionally excludes `agent/`, Hugging Face caches, virtual
-environments, Python bytecode, and unrelated exploratory outputs.
-
-## Compile Report
-
-From this folder:
-
-```powershell
-pdflatex -interaction=nonstopmode report_acl.tex
-bibtex report_acl
-pdflatex -interaction=nonstopmode report_acl.tex
-pdflatex -interaction=nonstopmode report_acl.tex
-```
+The export intentionally excludes the report itself, `agent/`, Hugging Face
+caches, virtual environments, Python bytecode, and unrelated exploratory
+outputs.
 
 ## Reproduce Main Results
 
