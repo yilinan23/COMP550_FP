@@ -105,6 +105,10 @@ Important hard subtypes include:
 ```text
 configs/
   benchmark_vs_rl.yaml              # Main benchmark-vs-RL evaluation config
+  benchmark_vs_rl_mistral_smoke.yaml # 5-example Mistral smoke test
+  benchmark_vs_rl_mistral_full.yaml  # Full Mistral benchmark-vs-RL config
+  mistral_subtype_analysis.yaml      # Mistral subtype analysis config
+  mistral_subtype_analysis_small_test.yaml
   rl_distribution_aware.yaml        # Distribution-aware RL generation config
   sanity_check.yaml                 # Dataset sanity-check config
   subtype_analysis_multi_model.yaml # Multi-model subtype analysis config
@@ -176,6 +180,48 @@ Run multi-model subtype analysis:
 ```powershell
 py -m syntax_rl.analysis.subtype_analysis --config configs/subtype_analysis_multi_model.yaml
 ```
+
+## Optional Mistral Evaluation
+
+The repository also includes configs for evaluating the open-source
+instruction-tuned model `mistralai/Mistral-7B-Instruct-v0.3` through the same
+Hugging Face causal LM scoring interface.
+
+Mistral-7B is much larger than the GPT-2-family models used in the main report.
+It may download more than 10 GB of model weights and may require a GPU or enough
+CPU RAM plus disk offloading. On machines without enough memory, the run may
+load successfully but become very slow or stop during scoring.
+
+Run a tiny benchmark-vs-RL smoke test first:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_smoke.yaml
+```
+
+If the smoke test works, run the full 240-vs-240 benchmark-vs-RL comparison:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_full.yaml
+```
+
+For subtype-level Mistral analysis, start with the small matched-subtype test:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis_small_test.yaml
+```
+
+Then run the main matched-subtype Mistral analysis:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis.yaml
+```
+
+Useful Mistral output locations:
+
+- `outputs/benchmark_vs_rl_mistral_smoke/`
+- `outputs/benchmark_vs_rl_mistral_full/`
+- `outputs/mistral_subtype_analysis_small_test/`
+- `outputs/mistral_subtype_analysis/`
 
 ## First Files to Inspect
 

@@ -1,0 +1,52 @@
+experiment:
+  name: mistral_subtype_analysis_small_test
+  seed: 42
+
+inputs:
+  benchmark:
+    path: data/generated/agreement_large_controlled.jsonl
+    phenomenon: agreement
+  rl:
+    path: data/generated/syntax_rl_distribution_aware_large.jsonl
+    phenomenon: agreement
+
+models:
+  - id: hf_mistral_7b_instruct
+    label: Mistral 7B Instruct v0.3
+    enabled: true
+    provider: huggingface
+    name: mistralai/Mistral-7B-Instruct-v0.3
+    device: auto
+    normalize_by_token_count: true
+    cache_dir: outputs/cache/huggingface
+    tokenizer_use_fast: false
+    torch_dtype: auto
+    low_cpu_mem_usage: true
+    device_map: auto
+    offload_folder: outputs/cache/huggingface_offload/mistral_subtype_small_test
+
+evaluation:
+  group_by:
+    - template_type
+    - subtype
+    - dependency_distance_bucket
+    - clause_depth
+  near_failure_margin: 0.01
+  continue_on_error: false
+  concentration_top_n: 3
+  concentration_failure_share_threshold: 0.6
+  hard_subtype_top_n: 5
+  matched_subset:
+    enabled: true
+    examples_per_shared_subtype: 1
+    max_total_examples_per_dataset: 6
+  cross_model_sources:
+    - label: gpt_family_large_controlled
+      path: outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_grouped_summary.csv
+    - label: smollm2_matched
+      path: outputs/benchmark_vs_rl_instruct_matched/benchmark_vs_rl_instruct_matched_grouped_summary.csv
+
+outputs:
+  comparison_dir: outputs/mistral_subtype_analysis_small_test
+  figures_dir: outputs/mistral_subtype_analysis_small_test/figures
+  log_dir: outputs/logs
