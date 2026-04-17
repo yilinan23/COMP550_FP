@@ -1,0 +1,4 @@
+hf_distilgpt2,hf_gpt2,hf_tiny_gpt2,mean_across_models,template_type
+0.3125,0.225,0.55,0.3625,relative_clause
+0.2625,0.2,0.5625,0.3416666666666666,pp_attractor
+0.1375,0.0375,0.475,0.21666666666666667,simple_agreement

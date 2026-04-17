@@ -1,0 +1,39 @@
+experiment:
+  name: syntax_rl_distribution_aware_large
+  seed: 42
+
+inputs:
+  benchmark_distribution:
+    path: data/generated/agreement_large_controlled.jsonl
+    phenomenon: agreement
+
+generation:
+  target_total: 240
+  attempts_per_target: 8
+  max_attempts: 4000
+  target_template_types:
+    - simple_agreement
+    - pp_attractor
+    - relative_clause
+  # Optional override. When omitted, subtype quotas are derived from
+  # inputs.benchmark_distribution.
+  target_counts: null
+
+model:
+  provider: huggingface
+  name: sshleifer/tiny-gpt2
+  device: cpu
+  normalize_by_token_count: true
+  cache_dir: outputs/cache/huggingface
+
+scoring:
+  near_failure_margin: 0.01
+  model_failure_weight: 1.0
+  boundary_weight: 0.5
+  margin_weight: 0.1
+  underrepresented_subtype_bonus: 0.25
+  overrepresented_subtype_penalty: 0.5
+
+outputs:
+  generated_dir: data/generated
+  summary_dir: outputs/distribution_aware_rl

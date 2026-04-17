@@ -1,0 +1,21 @@
+correct,dataset,grammatical,grammatical_score,model_id,preference_margin,subtype,template_type,uid,ungrammatical,ungrammatical_score
+False,rl,The students with the cabinet write.,-10.851242065429688,hf_tiny_gpt2,-0.015062967936197325,pp_singular_attractor_with,pp_attractor,rl_dist_0156,The students with the cabinet writes.,-10.83617909749349
+False,rl,The teachers beside the cabinet write.,-10.850303649902344,hf_tiny_gpt2,-0.0150616963704433,pp_singular_attractor_beside,pp_attractor,rl_dist_0139,The teachers beside the cabinet writes.,-10.8352419535319
+False,rl,The robot near the paintings writes.,-10.812689463297525,hf_tiny_gpt2,-0.014718373616535274,pp_plural_attractor_near,pp_attractor,rl_dist_0109,The robot near the paintings write.,-10.79797108968099
+False,rl,The guards answer.,-10.822199503580729,hf_tiny_gpt2,-0.014527638753254024,simple_plural,simple_agreement,rl_dist_0189,The guards answers.,-10.807671864827475
+False,rl,The reporters answer.,-10.82684326171875,hf_tiny_gpt2,-0.014132181803384825,simple_plural,simple_agreement,rl_dist_0178,The reporters answers.,-10.812711079915365
+False,rl,The managers answer.,-10.831634521484375,hf_tiny_gpt2,-0.0140533447265625,simple_plural,simple_agreement,rl_dist_0194,The managers answers.,-10.817581176757812
+False,rl,The drivers answer.,-10.834111531575521,hf_tiny_gpt2,-0.014034271240234375,simple_plural,simple_agreement,rl_dist_0183,The drivers answers.,-10.820077260335287
+False,rl,The birds answer.,-10.838935852050781,hf_tiny_gpt2,-0.01401646931966205,simple_plural,simple_agreement,rl_dist_0199,The birds answers.,-10.82491938273112
+False,rl,The authors answer.,-10.83865229288737,hf_tiny_gpt2,-0.01401519775390625,simple_plural,simple_agreement,rl_dist_0197,The authors answers.,-10.824637095133463
+False,rl,The boys answer.,-10.841874440511068,hf_tiny_gpt2,-0.0140088399251308,simple_plural,simple_agreement,rl_dist_0181,The boys answers.,-10.827865600585938
+False,rl,The pilots beside the map write.,-10.850898742675781,hf_tiny_gpt2,-0.01384735107421875,pp_singular_attractor_beside,pp_attractor,rl_dist_0138,The pilots beside the map writes.,-10.837051391601562
+False,rl,The writers smile.,-10.821825663248697,hf_tiny_gpt2,-0.013399759928384825,simple_plural,simple_agreement,rl_dist_0187,The writers smiles.,-10.808425903320312
+False,rl,The musicians smile.,-10.83615493774414,hf_tiny_gpt2,-0.013089497884115175,simple_plural,simple_agreement,rl_dist_0192,The musicians smiles.,-10.823065439860025
+False,rl,The students read.,-10.820078531901041,hf_tiny_gpt2,-0.012986501057941524,simple_plural,simple_agreement,rl_dist_0188,The students reads.,-10.8070920308431
+False,rl,The writer closes.,-10.807599385579428,hf_tiny_gpt2,-0.012852986653646425,simple_singular,simple_agreement,rl_dist_0230,The writer close.,-10.794746398925781
+False,rl,The scientists read.,-10.820121765136719,hf_tiny_gpt2,-0.0126635233561192,simple_plural,simple_agreement,rl_dist_0185,The scientists reads.,-10.8074582417806
+False,rl,The students wait.,-10.81830088297526,hf_tiny_gpt2,-0.012401580810546875,simple_plural,simple_agreement,rl_dist_0176,The students waits.,-10.805899302164713
+False,rl,The guards read.,-10.821739196777344,hf_tiny_gpt2,-0.011844635009765625,simple_plural,simple_agreement,rl_dist_0182,The guards reads.,-10.809894561767578
+False,rl,The musicians wait.,-10.836287180582682,hf_tiny_gpt2,-0.01169459025065045,simple_plural,simple_agreement,rl_dist_0195,The musicians waits.,-10.824592590332031
+False,rl,The chefs read.,-10.83032480875651,hf_tiny_gpt2,-0.011533101399738399,simple_plural,simple_agreement,rl_dist_0175,The chefs reads.,-10.818791707356771

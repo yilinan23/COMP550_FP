@@ -1,0 +1,2334 @@
+{
+  "model_summary": [
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 240,
+      "correct": 183,
+      "accuracy": 0.7625,
+      "mean_preference_margin": 0.3819018201537864,
+      "failure_rate": 0.2375,
+      "near_failure_rate": 0.029166666666666667
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 240,
+      "correct": 203,
+      "accuracy": 0.8458333333333333,
+      "mean_preference_margin": 0.5117646979907203,
+      "failure_rate": 0.15416666666666667,
+      "near_failure_rate": 0.016666666666666666
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 240,
+      "correct": 113,
+      "accuracy": 0.4708333333333333,
+      "mean_preference_margin": 0.00041986388504193045,
+      "failure_rate": 0.5291666666666667,
+      "near_failure_rate": 0.8583333333333333
+    }
+  ],
+  "grouped_summary": [
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 59,
+      "accuracy": 0.7375,
+      "mean_preference_margin": 0.20620754559834792,
+      "failure_rate": 0.2625,
+      "near_failure_rate": 0.025,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 55,
+      "accuracy": 0.6875,
+      "mean_preference_margin": 0.13709891533094737,
+      "failure_rate": 0.3125,
+      "near_failure_rate": 0.05,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 69,
+      "accuracy": 0.8625,
+      "mean_preference_margin": 0.8023989995320635,
+      "failure_rate": 0.1375,
+      "near_failure_rate": 0.0125,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 64,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.23129719098409018,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0125,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 62,
+      "accuracy": 0.775,
+      "mean_preference_margin": 0.18909865844817392,
+      "failure_rate": 0.225,
+      "near_failure_rate": 0.0375,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 77,
+      "accuracy": 0.9625,
+      "mean_preference_margin": 1.1148982445398967,
+      "failure_rate": 0.0375,
+      "near_failure_rate": 0.0,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 35,
+      "accuracy": 0.4375,
+      "mean_preference_margin": 1.2779235839865954e-05,
+      "failure_rate": 0.5625,
+      "near_failure_rate": 0.975,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 36,
+      "accuracy": 0.45,
+      "mean_preference_margin": -0.00035729957005325996,
+      "failure_rate": 0.55,
+      "near_failure_rate": 0.9875,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 42,
+      "accuracy": 0.525,
+      "mean_preference_margin": 0.0016041119893391853,
+      "failure_rate": 0.475,
+      "near_failure_rate": 0.6125,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 8,
+      "accuracy": 0.5,
+      "mean_preference_margin": 0.015764323491898824,
+      "failure_rate": 0.5,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 7,
+      "accuracy": 0.4375,
+      "mean_preference_margin": -0.09322587649027497,
+      "failure_rate": 0.5625,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.15940558058874943,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.125,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 14,
+      "accuracy": 0.875,
+      "mean_preference_margin": 0.3096591574805123,
+      "failure_rate": 0.125,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 14,
+      "accuracy": 0.875,
+      "mean_preference_margin": 0.2938913915838513,
+      "failure_rate": 0.125,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.03069686889648473,
+      "failure_rate": 0.7,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.20707740783691397,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.06413796742757168,
+      "failure_rate": 0.7,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.10783729553222665,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.5237154006958007,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.4355227788289387,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.2570702870686848,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.2132720311482748,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 40,
+      "correct": 40,
+      "accuracy": 1.0,
+      "mean_preference_margin": 1.2640542189280195,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 40,
+      "correct": 29,
+      "accuracy": 0.725,
+      "mean_preference_margin": 0.3407437801361084,
+      "failure_rate": 0.275,
+      "near_failure_rate": 0.025,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.13902731168837795,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.030815555935814143,
+      "failure_rate": 0.375,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 13,
+      "accuracy": 0.8125,
+      "mean_preference_margin": 0.187790551355907,
+      "failure_rate": 0.1875,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.19515172498566785,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 15,
+      "accuracy": 0.9375,
+      "mean_preference_margin": 0.3927081482751027,
+      "failure_rate": 0.0625,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "mean_preference_margin": -0.04727471669514971,
+      "failure_rate": 0.5,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.17084077199300118,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 6,
+      "accuracy": 0.6,
+      "mean_preference_margin": 0.004547246297200403,
+      "failure_rate": 0.4,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.3043687820434572,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.46454919179280596,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.48155905405680344,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.28911018371582015,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.18267701466878278,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 40,
+      "correct": 40,
+      "accuracy": 1.0,
+      "mean_preference_margin": 1.4729412873586014,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 40,
+      "correct": 37,
+      "accuracy": 0.925,
+      "mean_preference_margin": 0.7568552017211913,
+      "failure_rate": 0.075,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.0018751432025242432,
+      "failure_rate": 0.375,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.001053537641252933,
+      "failure_rate": 0.375,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 6,
+      "accuracy": 0.375,
+      "mean_preference_margin": -0.000982182366507156,
+      "failure_rate": 0.625,
+      "near_failure_rate": 0.9375,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 6,
+      "accuracy": 0.375,
+      "mean_preference_margin": -0.0011383380208693783,
+      "failure_rate": 0.625,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 4,
+      "accuracy": 0.25,
+      "mean_preference_margin": -0.0025946583066669415,
+      "failure_rate": 0.75,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 2,
+      "accuracy": 0.2,
+      "mean_preference_margin": -0.0002778371175129024,
+      "failure_rate": 0.8,
+      "near_failure_rate": 0.9,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 6,
+      "accuracy": 0.6,
+      "mean_preference_margin": 0.001253890991211115,
+      "failure_rate": 0.4,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.0025103251139322325,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.9,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "mean_preference_margin": 0.0001239776611328125,
+      "failure_rate": 0.5,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.001076253255208215,
+      "failure_rate": 0.7,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0010105133056640624,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0008228302001953125,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0005985260009767401,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 40,
+      "correct": 17,
+      "accuracy": 0.425,
+      "mean_preference_margin": -0.0016512552897136156,
+      "failure_rate": 0.575,
+      "near_failure_rate": 0.7,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 40,
+      "correct": 25,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.0048594792683919865,
+      "failure_rate": 0.375,
+      "near_failure_rate": 0.525,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 55,
+      "accuracy": 0.6875,
+      "mean_preference_margin": 0.13709891533094737,
+      "failure_rate": 0.3125,
+      "near_failure_rate": 0.05,
+      "group_by": "dependency_distance_bucket",
+      "group": "long_5_plus"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 59,
+      "accuracy": 0.7375,
+      "mean_preference_margin": 0.20620754559834792,
+      "failure_rate": 0.2625,
+      "near_failure_rate": 0.025,
+      "group_by": "dependency_distance_bucket",
+      "group": "medium_2_4"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 69,
+      "accuracy": 0.8625,
+      "mean_preference_margin": 0.8023989995320635,
+      "failure_rate": 0.1375,
+      "near_failure_rate": 0.0125,
+      "group_by": "dependency_distance_bucket",
+      "group": "short_1"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 62,
+      "accuracy": 0.775,
+      "mean_preference_margin": 0.18909865844817392,
+      "failure_rate": 0.225,
+      "near_failure_rate": 0.0375,
+      "group_by": "dependency_distance_bucket",
+      "group": "long_5_plus"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 64,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.23129719098409018,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0125,
+      "group_by": "dependency_distance_bucket",
+      "group": "medium_2_4"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 77,
+      "accuracy": 0.9625,
+      "mean_preference_margin": 1.1148982445398967,
+      "failure_rate": 0.0375,
+      "near_failure_rate": 0.0,
+      "group_by": "dependency_distance_bucket",
+      "group": "short_1"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 36,
+      "accuracy": 0.45,
+      "mean_preference_margin": -0.00035729957005325996,
+      "failure_rate": 0.55,
+      "near_failure_rate": 0.9875,
+      "group_by": "dependency_distance_bucket",
+      "group": "long_5_plus"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 35,
+      "accuracy": 0.4375,
+      "mean_preference_margin": 1.2779235839865954e-05,
+      "failure_rate": 0.5625,
+      "near_failure_rate": 0.975,
+      "group_by": "dependency_distance_bucket",
+      "group": "medium_2_4"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 42,
+      "accuracy": 0.525,
+      "mean_preference_margin": 0.0016041119893391853,
+      "failure_rate": 0.475,
+      "near_failure_rate": 0.6125,
+      "group_by": "dependency_distance_bucket",
+      "group": "short_1"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 160,
+      "correct": 128,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.5043032725652058,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.01875,
+      "group_by": "clause_depth",
+      "group": "0"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 55,
+      "accuracy": 0.6875,
+      "mean_preference_margin": 0.13709891533094737,
+      "failure_rate": 0.3125,
+      "near_failure_rate": 0.05,
+      "group_by": "clause_depth",
+      "group": "1"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 160,
+      "correct": 141,
+      "accuracy": 0.88125,
+      "mean_preference_margin": 0.6730977177619935,
+      "failure_rate": 0.11875,
+      "near_failure_rate": 0.00625,
+      "group_by": "clause_depth",
+      "group": "0"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 62,
+      "accuracy": 0.775,
+      "mean_preference_margin": 0.18909865844817392,
+      "failure_rate": 0.225,
+      "near_failure_rate": 0.0375,
+      "group_by": "clause_depth",
+      "group": "1"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 160,
+      "correct": 77,
+      "accuracy": 0.48125,
+      "mean_preference_margin": 0.0008084456125895256,
+      "failure_rate": 0.51875,
+      "near_failure_rate": 0.79375,
+      "group_by": "clause_depth",
+      "group": "0"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 36,
+      "accuracy": 0.45,
+      "mean_preference_margin": -0.00035729957005325996,
+      "failure_rate": 0.55,
+      "near_failure_rate": 0.9875,
+      "group_by": "clause_depth",
+      "group": "1"
+    }
+  ],
+  "cross_model_comparison": [
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 8,
+      "accuracy": 0.5,
+      "mean_preference_margin": 0.015764323491898824,
+      "failure_rate": 0.5,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.13902731168837795,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.0018751432025242432,
+      "failure_rate": 0.375,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 7,
+      "accuracy": 0.4375,
+      "mean_preference_margin": -0.09322587649027497,
+      "failure_rate": 0.5625,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.030815555935814143,
+      "failure_rate": 0.375,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 10,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.001053537641252933,
+      "failure_rate": 0.375,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_plural_embedded_who"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.15940558058874943,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.125,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 13,
+      "accuracy": 0.8125,
+      "mean_preference_margin": 0.187790551355907,
+      "failure_rate": 0.1875,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 6,
+      "accuracy": 0.375,
+      "mean_preference_margin": -0.000982182366507156,
+      "failure_rate": 0.625,
+      "near_failure_rate": 0.9375,
+      "group_by": "subtype",
+      "group": "object_relative_clause_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 14,
+      "accuracy": 0.875,
+      "mean_preference_margin": 0.3096591574805123,
+      "failure_rate": 0.125,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_preference_margin": 0.19515172498566785,
+      "failure_rate": 0.25,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 6,
+      "accuracy": 0.375,
+      "mean_preference_margin": -0.0011383380208693783,
+      "failure_rate": 0.625,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "object_relative_clause_who"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 16,
+      "correct": 14,
+      "accuracy": 0.875,
+      "mean_preference_margin": 0.2938913915838513,
+      "failure_rate": 0.125,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 16,
+      "correct": 15,
+      "accuracy": 0.9375,
+      "mean_preference_margin": 0.3927081482751027,
+      "failure_rate": 0.0625,
+      "near_failure_rate": 0.0625,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 16,
+      "correct": 4,
+      "accuracy": 0.25,
+      "mean_preference_margin": -0.0025946583066669415,
+      "failure_rate": 0.75,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "plural_object_relative_clause_that"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.03069686889648473,
+      "failure_rate": 0.7,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "mean_preference_margin": -0.04727471669514971,
+      "failure_rate": 0.5,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 2,
+      "accuracy": 0.2,
+      "mean_preference_margin": -0.0002778371175129024,
+      "failure_rate": 0.8,
+      "near_failure_rate": 0.9,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_behind"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.20707740783691397,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.17084077199300118,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 6,
+      "accuracy": 0.6,
+      "mean_preference_margin": 0.001253890991211115,
+      "failure_rate": 0.4,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_beside"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.06413796742757168,
+      "failure_rate": 0.7,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 6,
+      "accuracy": 0.6,
+      "mean_preference_margin": 0.004547246297200403,
+      "failure_rate": 0.4,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.0025103251139322325,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.9,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_near"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "mean_preference_margin": 0.10783729553222665,
+      "failure_rate": 0.3,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.3043687820434572,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "mean_preference_margin": 0.0001239776611328125,
+      "failure_rate": 0.5,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_plural_attractor_with"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.5237154006958007,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.46454919179280596,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.1,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "mean_preference_margin": -0.001076253255208215,
+      "failure_rate": 0.7,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_behind"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.4355227788289387,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.48155905405680344,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0010105133056640624,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_beside"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.2570702870686848,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "mean_preference_margin": 0.28911018371582015,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0008228302001953125,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_near"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "mean_preference_margin": 0.2132720311482748,
+      "failure_rate": 0.1,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.18267701466878278,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "mean_preference_margin": -0.0005985260009767401,
+      "failure_rate": 0.6,
+      "near_failure_rate": 1.0,
+      "group_by": "subtype",
+      "group": "pp_singular_attractor_with"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 40,
+      "correct": 40,
+      "accuracy": 1.0,
+      "mean_preference_margin": 1.2640542189280195,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 40,
+      "correct": 40,
+      "accuracy": 1.0,
+      "mean_preference_margin": 1.4729412873586014,
+      "failure_rate": 0.0,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 40,
+      "correct": 17,
+      "accuracy": 0.425,
+      "mean_preference_margin": -0.0016512552897136156,
+      "failure_rate": 0.575,
+      "near_failure_rate": 0.7,
+      "group_by": "subtype",
+      "group": "simple_plural"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 40,
+      "correct": 29,
+      "accuracy": 0.725,
+      "mean_preference_margin": 0.3407437801361084,
+      "failure_rate": 0.275,
+      "near_failure_rate": 0.025,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 40,
+      "correct": 37,
+      "accuracy": 0.925,
+      "mean_preference_margin": 0.7568552017211913,
+      "failure_rate": 0.075,
+      "near_failure_rate": 0.0,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 40,
+      "correct": 25,
+      "accuracy": 0.625,
+      "mean_preference_margin": 0.0048594792683919865,
+      "failure_rate": 0.375,
+      "near_failure_rate": 0.525,
+      "group_by": "subtype",
+      "group": "simple_singular"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 59,
+      "accuracy": 0.7375,
+      "mean_preference_margin": 0.20620754559834792,
+      "failure_rate": 0.2625,
+      "near_failure_rate": 0.025,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 64,
+      "accuracy": 0.8,
+      "mean_preference_margin": 0.23129719098409018,
+      "failure_rate": 0.2,
+      "near_failure_rate": 0.0125,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 35,
+      "accuracy": 0.4375,
+      "mean_preference_margin": 1.2779235839865954e-05,
+      "failure_rate": 0.5625,
+      "near_failure_rate": 0.975,
+      "group_by": "template_type",
+      "group": "pp_attractor"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 55,
+      "accuracy": 0.6875,
+      "mean_preference_margin": 0.13709891533094737,
+      "failure_rate": 0.3125,
+      "near_failure_rate": 0.05,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 62,
+      "accuracy": 0.775,
+      "mean_preference_margin": 0.18909865844817392,
+      "failure_rate": 0.225,
+      "near_failure_rate": 0.0375,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 36,
+      "accuracy": 0.45,
+      "mean_preference_margin": -0.00035729957005325996,
+      "failure_rate": 0.55,
+      "near_failure_rate": 0.9875,
+      "group_by": "template_type",
+      "group": "relative_clause"
+    },
+    {
+      "model_name": "distilgpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face DistilGPT-2",
+      "model_id": "hf_distilgpt2",
+      "total": 80,
+      "correct": 69,
+      "accuracy": 0.8625,
+      "mean_preference_margin": 0.8023989995320635,
+      "failure_rate": 0.1375,
+      "near_failure_rate": 0.0125,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    },
+    {
+      "model_name": "gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face GPT-2",
+      "model_id": "hf_gpt2",
+      "total": 80,
+      "correct": 77,
+      "accuracy": 0.9625,
+      "mean_preference_margin": 1.1148982445398967,
+      "failure_rate": 0.0375,
+      "near_failure_rate": 0.0,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    },
+    {
+      "model_name": "sshleifer/tiny-gpt2",
+      "model_provider": "huggingface",
+      "model_label": "Hugging Face tiny GPT-2",
+      "model_id": "hf_tiny_gpt2",
+      "total": 80,
+      "correct": 42,
+      "accuracy": 0.525,
+      "mean_preference_margin": 0.0016041119893391853,
+      "failure_rate": 0.475,
+      "near_failure_rate": 0.6125,
+      "group_by": "template_type",
+      "group": "simple_agreement"
+    }
+  ],
+  "difficulty_summary": {
+    "hard_subtype_top_n": 3,
+    "difficulty_change_accuracy_delta": 0.25,
+    "hardest_subtypes_by_model": {
+      "hf_distilgpt2": [
+        {
+          "subtype": "pp_plural_attractor_near",
+          "total": 10,
+          "correct": 3,
+          "accuracy": 0.3,
+          "failure_rate": 0.7,
+          "mean_preference_margin": -0.06413796742757168,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_plural_attractor_behind",
+          "total": 10,
+          "correct": 3,
+          "accuracy": 0.3,
+          "failure_rate": 0.7,
+          "mean_preference_margin": -0.03069686889648473,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "object_relative_clause_plural_embedded_who",
+          "total": 16,
+          "correct": 7,
+          "accuracy": 0.4375,
+          "failure_rate": 0.5625,
+          "mean_preference_margin": -0.09322587649027497,
+          "near_failure_rate": 0.0
+        }
+      ],
+      "hf_gpt2": [
+        {
+          "subtype": "pp_plural_attractor_behind",
+          "total": 10,
+          "correct": 5,
+          "accuracy": 0.5,
+          "failure_rate": 0.5,
+          "mean_preference_margin": -0.04727471669514971,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_plural_attractor_near",
+          "total": 10,
+          "correct": 6,
+          "accuracy": 0.6,
+          "failure_rate": 0.4,
+          "mean_preference_margin": 0.004547246297200403,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "object_relative_clause_plural_embedded_who",
+          "total": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "failure_rate": 0.375,
+          "mean_preference_margin": 0.030815555935814143,
+          "near_failure_rate": 0.0625
+        }
+      ],
+      "hf_tiny_gpt2": [
+        {
+          "subtype": "pp_plural_attractor_behind",
+          "total": 10,
+          "correct": 2,
+          "accuracy": 0.2,
+          "failure_rate": 0.8,
+          "mean_preference_margin": -0.0002778371175129024,
+          "near_failure_rate": 0.9
+        },
+        {
+          "subtype": "plural_object_relative_clause_that",
+          "total": 16,
+          "correct": 4,
+          "accuracy": 0.25,
+          "failure_rate": 0.75,
+          "mean_preference_margin": -0.0025946583066669415,
+          "near_failure_rate": 1.0
+        },
+        {
+          "subtype": "pp_singular_attractor_behind",
+          "total": 10,
+          "correct": 3,
+          "accuracy": 0.3,
+          "failure_rate": 0.7,
+          "mean_preference_margin": -0.001076253255208215,
+          "near_failure_rate": 1.0
+        }
+      ]
+    },
+    "easiest_subtypes_by_model": {
+      "hf_distilgpt2": [
+        {
+          "subtype": "simple_plural",
+          "total": 40,
+          "correct": 40,
+          "accuracy": 1.0,
+          "failure_rate": 0.0,
+          "mean_preference_margin": 1.2640542189280195,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_singular_attractor_beside",
+          "total": 10,
+          "correct": 10,
+          "accuracy": 1.0,
+          "failure_rate": 0.0,
+          "mean_preference_margin": 0.4355227788289387,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_singular_attractor_behind",
+          "total": 10,
+          "correct": 9,
+          "accuracy": 0.9,
+          "failure_rate": 0.1,
+          "mean_preference_margin": 0.5237154006958007,
+          "near_failure_rate": 0.1
+        }
+      ],
+      "hf_gpt2": [
+        {
+          "subtype": "simple_plural",
+          "total": 40,
+          "correct": 40,
+          "accuracy": 1.0,
+          "failure_rate": 0.0,
+          "mean_preference_margin": 1.4729412873586014,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_singular_attractor_beside",
+          "total": 10,
+          "correct": 10,
+          "accuracy": 1.0,
+          "failure_rate": 0.0,
+          "mean_preference_margin": 0.48155905405680344,
+          "near_failure_rate": 0.0
+        },
+        {
+          "subtype": "pp_singular_attractor_behind",
+          "total": 10,
+          "correct": 10,
+          "accuracy": 1.0,
+          "failure_rate": 0.0,
+          "mean_preference_margin": 0.46454919179280596,
+          "near_failure_rate": 0.1
+        }
+      ],
+      "hf_tiny_gpt2": [
+        {
+          "subtype": "pp_plural_attractor_near",
+          "total": 10,
+          "correct": 7,
+          "accuracy": 0.7,
+          "failure_rate": 0.3,
+          "mean_preference_margin": 0.0025103251139322325,
+          "near_failure_rate": 0.9
+        },
+        {
+          "subtype": "simple_singular",
+          "total": 40,
+          "correct": 25,
+          "accuracy": 0.625,
+          "failure_rate": 0.375,
+          "mean_preference_margin": 0.0048594792683919865,
+          "near_failure_rate": 0.525
+        },
+        {
+          "subtype": "object_relative_clause_plural_embedded_that",
+          "total": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "failure_rate": 0.375,
+          "mean_preference_margin": 0.0018751432025242432,
+          "near_failure_rate": 1.0
+        }
+      ]
+    },
+    "consistently_hard_subtypes": [
+      "pp_plural_attractor_behind"
+    ],
+    "subtypes_with_substantial_difficulty_change": [
+      {
+        "subtype": "pp_singular_attractor_behind",
+        "accuracy_min": 0.3,
+        "accuracy_max": 1.0,
+        "accuracy_range": 0.7,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.9,
+            "failure_rate": 0.1,
+            "mean_preference_margin": 0.5237154006958007
+          },
+          "hf_gpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 0.46454919179280596
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.3,
+            "failure_rate": 0.7,
+            "mean_preference_margin": -0.001076253255208215
+          }
+        }
+      },
+      {
+        "subtype": "plural_object_relative_clause_that",
+        "accuracy_min": 0.25,
+        "accuracy_max": 0.9375,
+        "accuracy_range": 0.6875,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.875,
+            "failure_rate": 0.125,
+            "mean_preference_margin": 0.2938913915838513
+          },
+          "hf_gpt2": {
+            "accuracy": 0.9375,
+            "failure_rate": 0.0625,
+            "mean_preference_margin": 0.3927081482751027
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.25,
+            "failure_rate": 0.75,
+            "mean_preference_margin": -0.0025946583066669415
+          }
+        }
+      },
+      {
+        "subtype": "pp_singular_attractor_beside",
+        "accuracy_min": 0.4,
+        "accuracy_max": 1.0,
+        "accuracy_range": 0.6,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 0.4355227788289387
+          },
+          "hf_gpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 0.48155905405680344
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.4,
+            "failure_rate": 0.6,
+            "mean_preference_margin": -0.0010105133056640624
+          }
+        }
+      },
+      {
+        "subtype": "pp_singular_attractor_near",
+        "accuracy_min": 0.4,
+        "accuracy_max": 1.0,
+        "accuracy_range": 0.6,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.9,
+            "failure_rate": 0.1,
+            "mean_preference_margin": 0.2570702870686848
+          },
+          "hf_gpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 0.28911018371582015
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.4,
+            "failure_rate": 0.6,
+            "mean_preference_margin": -0.0008228302001953125
+          }
+        }
+      },
+      {
+        "subtype": "simple_plural",
+        "accuracy_min": 0.425,
+        "accuracy_max": 1.0,
+        "accuracy_range": 0.575,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 1.2640542189280195
+          },
+          "hf_gpt2": {
+            "accuracy": 1.0,
+            "failure_rate": 0.0,
+            "mean_preference_margin": 1.4729412873586014
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.425,
+            "failure_rate": 0.575,
+            "mean_preference_margin": -0.0016512552897136156
+          }
+        }
+      },
+      {
+        "subtype": "object_relative_clause_who",
+        "accuracy_min": 0.375,
+        "accuracy_max": 0.875,
+        "accuracy_range": 0.5,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.875,
+            "failure_rate": 0.125,
+            "mean_preference_margin": 0.3096591574805123
+          },
+          "hf_gpt2": {
+            "accuracy": 0.75,
+            "failure_rate": 0.25,
+            "mean_preference_margin": 0.19515172498566785
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.375,
+            "failure_rate": 0.625,
+            "mean_preference_margin": -0.0011383380208693783
+          }
+        }
+      },
+      {
+        "subtype": "pp_singular_attractor_with",
+        "accuracy_min": 0.4,
+        "accuracy_max": 0.9,
+        "accuracy_range": 0.5,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.9,
+            "failure_rate": 0.1,
+            "mean_preference_margin": 0.2132720311482748
+          },
+          "hf_gpt2": {
+            "accuracy": 0.8,
+            "failure_rate": 0.2,
+            "mean_preference_margin": 0.18267701466878278
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.4,
+            "failure_rate": 0.6,
+            "mean_preference_margin": -0.0005985260009767401
+          }
+        }
+      },
+      {
+        "subtype": "object_relative_clause_that",
+        "accuracy_min": 0.375,
+        "accuracy_max": 0.8125,
+        "accuracy_range": 0.4375,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.75,
+            "failure_rate": 0.25,
+            "mean_preference_margin": 0.15940558058874943
+          },
+          "hf_gpt2": {
+            "accuracy": 0.8125,
+            "failure_rate": 0.1875,
+            "mean_preference_margin": 0.187790551355907
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.375,
+            "failure_rate": 0.625,
+            "mean_preference_margin": -0.000982182366507156
+          }
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_near",
+        "accuracy_min": 0.3,
+        "accuracy_max": 0.7,
+        "accuracy_range": 0.39999999999999997,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.3,
+            "failure_rate": 0.7,
+            "mean_preference_margin": -0.06413796742757168
+          },
+          "hf_gpt2": {
+            "accuracy": 0.6,
+            "failure_rate": 0.4,
+            "mean_preference_margin": 0.004547246297200403
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.7,
+            "failure_rate": 0.3,
+            "mean_preference_margin": 0.0025103251139322325
+          }
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_beside",
+        "accuracy_min": 0.6,
+        "accuracy_max": 0.9,
+        "accuracy_range": 0.30000000000000004,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.9,
+            "failure_rate": 0.1,
+            "mean_preference_margin": 0.20707740783691397
+          },
+          "hf_gpt2": {
+            "accuracy": 0.7,
+            "failure_rate": 0.3,
+            "mean_preference_margin": 0.17084077199300118
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.6,
+            "failure_rate": 0.4,
+            "mean_preference_margin": 0.001253890991211115
+          }
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_with",
+        "accuracy_min": 0.5,
+        "accuracy_max": 0.8,
+        "accuracy_range": 0.30000000000000004,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.7,
+            "failure_rate": 0.3,
+            "mean_preference_margin": 0.10783729553222665
+          },
+          "hf_gpt2": {
+            "accuracy": 0.8,
+            "failure_rate": 0.2,
+            "mean_preference_margin": 0.3043687820434572
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.5,
+            "failure_rate": 0.5,
+            "mean_preference_margin": 0.0001239776611328125
+          }
+        }
+      },
+      {
+        "subtype": "simple_singular",
+        "accuracy_min": 0.625,
+        "accuracy_max": 0.925,
+        "accuracy_range": 0.30000000000000004,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.725,
+            "failure_rate": 0.275,
+            "mean_preference_margin": 0.3407437801361084
+          },
+          "hf_gpt2": {
+            "accuracy": 0.925,
+            "failure_rate": 0.075,
+            "mean_preference_margin": 0.7568552017211913
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.625,
+            "failure_rate": 0.375,
+            "mean_preference_margin": 0.0048594792683919865
+          }
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_behind",
+        "accuracy_min": 0.2,
+        "accuracy_max": 0.5,
+        "accuracy_range": 0.3,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.3,
+            "failure_rate": 0.7,
+            "mean_preference_margin": -0.03069686889648473
+          },
+          "hf_gpt2": {
+            "accuracy": 0.5,
+            "failure_rate": 0.5,
+            "mean_preference_margin": -0.04727471669514971
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.2,
+            "failure_rate": 0.8,
+            "mean_preference_margin": -0.0002778371175129024
+          }
+        }
+      },
+      {
+        "subtype": "object_relative_clause_plural_embedded_that",
+        "accuracy_min": 0.5,
+        "accuracy_max": 0.75,
+        "accuracy_range": 0.25,
+        "by_model": {
+          "hf_distilgpt2": {
+            "accuracy": 0.5,
+            "failure_rate": 0.5,
+            "mean_preference_margin": 0.015764323491898824
+          },
+          "hf_gpt2": {
+            "accuracy": 0.75,
+            "failure_rate": 0.25,
+            "mean_preference_margin": 0.13902731168837795
+          },
+          "hf_tiny_gpt2": {
+            "accuracy": 0.625,
+            "failure_rate": 0.375,
+            "mean_preference_margin": 0.0018751432025242432
+          }
+        }
+      }
+    ]
+  },
+  "errors": [],
+  "config": {
+    "experiment": {
+      "name": "large_controlled_subtype_analysis_multi_model",
+      "seed": 42
+    },
+    "data": {
+      "path": "data/generated/agreement_large_controlled.jsonl",
+      "phenomenon": "agreement"
+    },
+    "models": [
+      {
+        "id": "hf_tiny_gpt2",
+        "label": "Hugging Face tiny GPT-2",
+        "enabled": true,
+        "provider": "huggingface",
+        "name": "sshleifer/tiny-gpt2",
+        "device": "cpu",
+        "normalize_by_token_count": true,
+        "cache_dir": "outputs/cache/huggingface"
+      },
+      {
+        "id": "hf_distilgpt2",
+        "label": "Hugging Face DistilGPT-2",
+        "enabled": true,
+        "provider": "huggingface",
+        "name": "distilgpt2",
+        "device": "cpu",
+        "normalize_by_token_count": true,
+        "cache_dir": "outputs/cache/huggingface"
+      },
+      {
+        "id": "hf_gpt2",
+        "label": "Hugging Face GPT-2",
+        "enabled": true,
+        "provider": "huggingface",
+        "name": "gpt2",
+        "device": "cpu",
+        "normalize_by_token_count": true,
+        "cache_dir": "outputs/cache/huggingface"
+      }
+    ],
+    "evaluation": {
+      "group_by": [
+        "template_type",
+        "subtype",
+        "dependency_distance_bucket",
+        "clause_depth"
+      ],
+      "near_failure_margin": 0.01,
+      "continue_on_error": true,
+      "hard_subtype_top_n": 3,
+      "difficulty_change_accuracy_delta": 0.25
+    },
+    "outputs": {
+      "analysis_dir": "outputs/subtype_analysis_multi_model",
+      "figures_dir": "outputs/subtype_analysis_multi_model/figures"
+    }
+  }
+}

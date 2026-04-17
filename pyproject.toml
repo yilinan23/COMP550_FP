@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syntax-rl-project"
+version = "0.1.0"
+description = "Scaffold for syntax-focused reinforcement learning experiments."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "PyYAML>=6.0",
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+syntax-rl-baseline = "syntax_rl.evaluation.baseline_eval:main"
+syntax-rl-generate = "syntax_rl.generator.sample_generator:main"
+syntax-rl-validate-generated = "syntax_rl.generator.validate_generated:main"
+syntax-rl-rollout = "syntax_rl.rl.rollout:main"
+syntax-rl-train = "syntax_rl.rl.train:main"
+syntax-rl-generate-distribution-aware = "syntax_rl.rl.distribution_aware_generate:main"
+syntax-rl-analyze = "syntax_rl.analysis.report:main"
+syntax-rl-download-blimp = "syntax_rl.data.download_blimp:main"
+syntax-rl-reevaluate = "syntax_rl.evaluation.reevaluate_policies:main"
+syntax-rl-final-eval = "syntax_rl.evaluation.multi_model_eval:main"
+syntax-rl-subtype-analysis = "syntax_rl.analysis.subtype_analysis:main"
+syntax-rl-benchmark-vs-rl = "syntax_rl.evaluation.benchmark_vs_rl:main"
+syntax-rl-sanity-check = "syntax_rl.analysis.sanity_check:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+]
+hf = [
+    "torch>=2.0",
+    "transformers==4.40.2",
+    "tokenizers==0.19.1",
+    "protobuf>=4.25",
+]
+openai = [
+    "openai>=1.68.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

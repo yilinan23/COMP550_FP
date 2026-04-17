@@ -1,0 +1,4 @@
+accuracy,correct,failure_rate,mean_preference_margin,model_id,model_label,model_name,model_provider,near_failure_rate,total
+0.7625,183,0.2375,0.3819018201537864,hf_distilgpt2,Hugging Face DistilGPT-2,distilgpt2,huggingface,0.029166666666666667,240
+0.8458333333333333,203,0.15416666666666667,0.5117646979907203,hf_gpt2,Hugging Face GPT-2,gpt2,huggingface,0.016666666666666666,240
+0.4708333333333333,113,0.5291666666666667,0.00041986388504193045,hf_tiny_gpt2,Hugging Face tiny GPT-2,sshleifer/tiny-gpt2,huggingface,0.8583333333333333,240

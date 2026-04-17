@@ -1,0 +1,19 @@
+experiment:
+  name: agreement_large_controlled
+  seed: 123
+
+generator:
+  phenomenon: subject_verb_agreement
+  count: 240
+  balance_template_types: true
+  template_types:
+    - simple_agreement
+    - pp_attractor
+    - relative_clause
+  max_dependency_distance: 6
+  max_attractor_count: 2
+  max_clause_depth: 2
+
+outputs:
+  generated_dir: data/generated
+  log_dir: outputs/logs

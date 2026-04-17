@@ -1,0 +1,102 @@
+{
+  "benchmark": {
+    "total": 240,
+    "subtype_counts": {
+      "pp_plural_attractor_near": 10,
+      "object_relative_clause_that": 16,
+      "simple_singular": 40,
+      "pp_singular_attractor_near": 10,
+      "object_relative_clause_who": 16,
+      "simple_plural": 40,
+      "pp_plural_attractor_behind": 10,
+      "plural_object_relative_clause_that": 16,
+      "pp_singular_attractor_behind": 10,
+      "object_relative_clause_plural_embedded_that": 16,
+      "pp_plural_attractor_beside": 10,
+      "object_relative_clause_plural_embedded_who": 16,
+      "pp_singular_attractor_beside": 10,
+      "pp_plural_attractor_with": 10,
+      "pp_singular_attractor_with": 10
+    },
+    "template_type_counts": {
+      "pp_attractor": 80,
+      "relative_clause": 80,
+      "simple_agreement": 80
+    },
+    "dependency_distance_bucket_counts": {
+      "medium_2_4": 80,
+      "long_5_plus": 80,
+      "short_1": 80
+    },
+    "clause_depth_counts": {
+      "0": 160,
+      "1": 80
+    }
+  },
+  "rl": {
+    "total": 240,
+    "subtype_counts": {
+      "object_relative_clause_plural_embedded_that": 16,
+      "object_relative_clause_plural_embedded_who": 16,
+      "object_relative_clause_that": 16,
+      "object_relative_clause_who": 16,
+      "plural_object_relative_clause_that": 16,
+      "pp_plural_attractor_behind": 10,
+      "pp_plural_attractor_beside": 10,
+      "pp_plural_attractor_near": 10,
+      "pp_plural_attractor_with": 10,
+      "pp_singular_attractor_behind": 10,
+      "pp_singular_attractor_beside": 10,
+      "pp_singular_attractor_near": 10,
+      "pp_singular_attractor_with": 10,
+      "simple_plural": 40,
+      "simple_singular": 40
+    },
+    "template_type_counts": {
+      "relative_clause": 80,
+      "pp_attractor": 80,
+      "simple_agreement": 80
+    },
+    "dependency_distance_bucket_counts": {
+      "long_5_plus": 80,
+      "medium_2_4": 80,
+      "short_1": 80
+    },
+    "clause_depth_counts": {
+      "1": 80,
+      "0": 160
+    }
+  },
+  "subtype_coverage": {
+    "shared": [
+      "object_relative_clause_plural_embedded_that",
+      "object_relative_clause_plural_embedded_who",
+      "object_relative_clause_that",
+      "object_relative_clause_who",
+      "plural_object_relative_clause_that",
+      "pp_plural_attractor_behind",
+      "pp_plural_attractor_beside",
+      "pp_plural_attractor_near",
+      "pp_plural_attractor_with",
+      "pp_singular_attractor_behind",
+      "pp_singular_attractor_beside",
+      "pp_singular_attractor_near",
+      "pp_singular_attractor_with",
+      "simple_plural",
+      "simple_singular"
+    ],
+    "benchmark_only": [],
+    "rl_only": [],
+    "matched": true
+  },
+  "template_type_coverage": {
+    "shared": [
+      "pp_attractor",
+      "relative_clause",
+      "simple_agreement"
+    ],
+    "benchmark_only": [],
+    "rl_only": [],
+    "matched": true
+  }
+}

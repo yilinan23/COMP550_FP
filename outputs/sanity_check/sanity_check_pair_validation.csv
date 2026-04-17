@@ -1,0 +1,241 @@
+error_count,errors,sentence_bad,sentence_good,subtype,template_type,uid,valid
+0,,The teacher that the neighbors follow speak.,The teacher that the neighbors follow speaks.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0001,True
+0,,The dog that the doctors support move.,The dog that the doctors support moves.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0002,True
+0,,The musician that the artists trust study.,The musician that the artists trust studies.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0003,True
+0,,The scientist that the neighbors call speak.,The scientist that the neighbors call speaks.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0004,True
+0,,The teacher that the artists guide write.,The teacher that the artists guide writes.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0005,True
+0,,The dancer that the mechanics call listen.,The dancer that the mechanics call listens.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0006,True
+0,,The manager that the lawyers help listen.,The manager that the lawyers help listens.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0007,True
+0,,The driver that the doctors support study.,The driver that the doctors support studies.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0008,True
+0,,The musician that the visitors admire move.,The musician that the visitors admire moves.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0009,True
+0,,The manager that the librarians like run.,The manager that the librarians like runs.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0010,True
+0,,The bird that the editors remember open.,The bird that the editors remember opens.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0011,True
+0,,The manager that the doctors call travel.,The manager that the doctors call travels.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0012,True
+0,,The judge that the visitors know open.,The judge that the visitors know opens.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0013,True
+0,,The manager that the brokers follow move.,The manager that the brokers follow moves.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0014,True
+0,,The reporter that the visitors question move.,The reporter that the visitors question moves.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0015,True
+0,,The boy that the coaches trust notice.,The boy that the coaches trust notices.,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0016,True
+0,,The nurse who the visitors see notice.,The nurse who the visitors see notices.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0017,True
+0,,The author who the mechanics call move.,The author who the mechanics call moves.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0018,True
+0,,The judge who the visitors know listen.,The judge who the visitors know listens.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0019,True
+0,,The boy who the neighbors call open.,The boy who the neighbors call opens.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0020,True
+0,,The writer who the librarians trust return.,The writer who the librarians trust returns.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0021,True
+0,,The boy who the farmers help move.,The boy who the farmers help moves.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0022,True
+0,,The driver who the farmers know travel.,The driver who the farmers know travels.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0023,True
+0,,The pilot who the coaches follow move.,The pilot who the coaches follow moves.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0024,True
+0,,The chef who the coaches follow laugh.,The chef who the coaches follow laughs.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0025,True
+0,,The writer who the doctors question move.,The writer who the doctors question moves.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0026,True
+0,,The actor who the visitors follow study.,The actor who the visitors follow studies.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0027,True
+0,,The driver who the doctors question open.,The driver who the doctors question opens.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0028,True
+0,,The student who the clerks like move.,The student who the clerks like moves.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0029,True
+0,,The student who the farmers question write.,The student who the farmers question writes.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0030,True
+0,,The student who the editors remember notice.,The student who the editors remember notices.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0031,True
+0,,The musician who the brokers observe listen.,The musician who the brokers observe listens.,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0032,True
+0,,The chef that the mechanic calls study.,The chef that the mechanic calls studies.,object_relative_clause_that,relative_clause,rl_dist_0033,True
+0,,The bird that the visitor knows open.,The bird that the visitor knows opens.,object_relative_clause_that,relative_clause,rl_dist_0034,True
+0,,The guard that the lawyer supports notice.,The guard that the lawyer supports notices.,object_relative_clause_that,relative_clause,rl_dist_0035,True
+0,,The nurse that the farmer guides move.,The nurse that the farmer guides moves.,object_relative_clause_that,relative_clause,rl_dist_0036,True
+0,,The scientist that the doctor follows laugh.,The scientist that the doctor follows laughs.,object_relative_clause_that,relative_clause,rl_dist_0037,True
+0,,The nurse that the neighbor sees open.,The nurse that the neighbor sees opens.,object_relative_clause_that,relative_clause,rl_dist_0038,True
+0,,The manager that the girl admires listen.,The manager that the girl admires listens.,object_relative_clause_that,relative_clause,rl_dist_0039,True
+0,,The teacher that the neighbor questions move.,The teacher that the neighbor questions moves.,object_relative_clause_that,relative_clause,rl_dist_0040,True
+0,,The guard that the neighbor admires arrive.,The guard that the neighbor admires arrives.,object_relative_clause_that,relative_clause,rl_dist_0041,True
+0,,The nurse that the artist guides travel.,The nurse that the artist guides travels.,object_relative_clause_that,relative_clause,rl_dist_0042,True
+0,,The judge that the clerk sees move.,The judge that the clerk sees moves.,object_relative_clause_that,relative_clause,rl_dist_0043,True
+0,,The manager that the farmer trusts speak.,The manager that the farmer trusts speaks.,object_relative_clause_that,relative_clause,rl_dist_0044,True
+0,,The author that the neighbor likes laugh.,The author that the neighbor likes laughs.,object_relative_clause_that,relative_clause,rl_dist_0045,True
+0,,The judge that the mechanic likes close.,The judge that the mechanic likes closes.,object_relative_clause_that,relative_clause,rl_dist_0046,True
+0,,The teacher that the lawyer likes sleep.,The teacher that the lawyer likes sleeps.,object_relative_clause_that,relative_clause,rl_dist_0047,True
+0,,The student that the lawyer sees listen.,The student that the lawyer sees listens.,object_relative_clause_that,relative_clause,rl_dist_0048,True
+0,,The actor who the coach supports travel.,The actor who the coach supports travels.,object_relative_clause_who,relative_clause,rl_dist_0049,True
+0,,The driver who the broker guides study.,The driver who the broker guides studies.,object_relative_clause_who,relative_clause,rl_dist_0050,True
+0,,The nurse who the mechanic sees open.,The nurse who the mechanic sees opens.,object_relative_clause_who,relative_clause,rl_dist_0051,True
+0,,The scientist who the coach calls speak.,The scientist who the coach calls speaks.,object_relative_clause_who,relative_clause,rl_dist_0052,True
+0,,The author who the editor observes sleep.,The author who the editor observes sleeps.,object_relative_clause_who,relative_clause,rl_dist_0053,True
+0,,The judge who the visitor observes open.,The judge who the visitor observes opens.,object_relative_clause_who,relative_clause,rl_dist_0054,True
+0,,The pilot who the lawyer questions laugh.,The pilot who the lawyer questions laughs.,object_relative_clause_who,relative_clause,rl_dist_0055,True
+0,,The author who the neighbor supports write.,The author who the neighbor supports writes.,object_relative_clause_who,relative_clause,rl_dist_0056,True
+0,,The chef who the artist trusts travel.,The chef who the artist trusts travels.,object_relative_clause_who,relative_clause,rl_dist_0057,True
+0,,The guard who the singer trusts move.,The guard who the singer trusts moves.,object_relative_clause_who,relative_clause,rl_dist_0058,True
+0,,The reporter who the mechanic knows listen.,The reporter who the mechanic knows listens.,object_relative_clause_who,relative_clause,rl_dist_0059,True
+0,,The author who the farmer admires open.,The author who the farmer admires opens.,object_relative_clause_who,relative_clause,rl_dist_0060,True
+0,,The dancer who the singer follows study.,The dancer who the singer follows studies.,object_relative_clause_who,relative_clause,rl_dist_0061,True
+0,,The nurse who the mechanic questions sleep.,The nurse who the mechanic questions sleeps.,object_relative_clause_who,relative_clause,rl_dist_0062,True
+0,,The nurse who the farmer likes study.,The nurse who the farmer likes studies.,object_relative_clause_who,relative_clause,rl_dist_0063,True
+0,,The teacher who the editor knows arrive.,The teacher who the editor knows arrives.,object_relative_clause_who,relative_clause,rl_dist_0064,True
+0,,The dancers that the farmer likes closes.,The dancers that the farmer likes close.,plural_object_relative_clause_that,relative_clause,rl_dist_0065,True
+0,,The scientists that the lawyer guides waits.,The scientists that the lawyer guides wait.,plural_object_relative_clause_that,relative_clause,rl_dist_0066,True
+0,,The chefs that the singer follows waits.,The chefs that the singer follows wait.,plural_object_relative_clause_that,relative_clause,rl_dist_0067,True
+0,,The birds that the editor calls runs.,The birds that the editor calls run.,plural_object_relative_clause_that,relative_clause,rl_dist_0068,True
+0,,The nurses that the artist calls sleeps.,The nurses that the artist calls sleep.,plural_object_relative_clause_that,relative_clause,rl_dist_0069,True
+0,,The managers that the visitor follows answers.,The managers that the visitor follows answer.,plural_object_relative_clause_that,relative_clause,rl_dist_0070,True
+0,,The chefs that the artist follows answers.,The chefs that the artist follows answer.,plural_object_relative_clause_that,relative_clause,rl_dist_0071,True
+0,,The boys that the coach guides sleeps.,The boys that the coach guides sleep.,plural_object_relative_clause_that,relative_clause,rl_dist_0072,True
+0,,The dogs that the mechanic calls dances.,The dogs that the mechanic calls dance.,plural_object_relative_clause_that,relative_clause,rl_dist_0073,True
+0,,The dancers that the editor remembers arrives.,The dancers that the editor remembers arrive.,plural_object_relative_clause_that,relative_clause,rl_dist_0074,True
+0,,The actors that the broker remembers smiles.,The actors that the broker remembers smile.,plural_object_relative_clause_that,relative_clause,rl_dist_0075,True
+0,,The reporters that the singer sees closes.,The reporters that the singer sees close.,plural_object_relative_clause_that,relative_clause,rl_dist_0076,True
+0,,The chefs that the editor observes writes.,The chefs that the editor observes write.,plural_object_relative_clause_that,relative_clause,rl_dist_0077,True
+0,,The writers that the doctor calls smiles.,The writers that the doctor calls smile.,plural_object_relative_clause_that,relative_clause,rl_dist_0078,True
+0,,The actors that the editor trusts smiles.,The actors that the editor trusts smile.,plural_object_relative_clause_that,relative_clause,rl_dist_0079,True
+0,,The authors that the mechanic guides works.,The authors that the mechanic guides work.,plural_object_relative_clause_that,relative_clause,rl_dist_0080,True
+0,,The writer behind the cars travel.,The writer behind the cars travels.,pp_plural_attractor_behind,pp_attractor,rl_dist_0081,True
+0,,The writer behind the gardens close.,The writer behind the gardens closes.,pp_plural_attractor_behind,pp_attractor,rl_dist_0082,True
+0,,The actor behind the keys listen.,The actor behind the keys listens.,pp_plural_attractor_behind,pp_attractor,rl_dist_0083,True
+0,,The author behind the maps open.,The author behind the maps opens.,pp_plural_attractor_behind,pp_attractor,rl_dist_0084,True
+0,,The actor behind the cabinets answer.,The actor behind the cabinets answers.,pp_plural_attractor_behind,pp_attractor,rl_dist_0085,True
+0,,The dancer behind the students run.,The dancer behind the students runs.,pp_plural_attractor_behind,pp_attractor,rl_dist_0086,True
+0,,The manager behind the computers close.,The manager behind the computers closes.,pp_plural_attractor_behind,pp_attractor,rl_dist_0087,True
+0,,The robot behind the keys move.,The robot behind the keys moves.,pp_plural_attractor_behind,pp_attractor,rl_dist_0088,True
+0,,The teacher behind the letters move.,The teacher behind the letters moves.,pp_plural_attractor_behind,pp_attractor,rl_dist_0089,True
+0,,The driver behind the reports dance.,The driver behind the reports dances.,pp_plural_attractor_behind,pp_attractor,rl_dist_0090,True
+0,,The author beside the reports speak.,The author beside the reports speaks.,pp_plural_attractor_beside,pp_attractor,rl_dist_0091,True
+0,,The judge beside the instruments wait.,The judge beside the instruments waits.,pp_plural_attractor_beside,pp_attractor,rl_dist_0092,True
+0,,The nurse beside the keys open.,The nurse beside the keys opens.,pp_plural_attractor_beside,pp_attractor,rl_dist_0093,True
+0,,The pilot beside the computers sleep.,The pilot beside the computers sleeps.,pp_plural_attractor_beside,pp_attractor,rl_dist_0094,True
+0,,The writer beside the computers run.,The writer beside the computers runs.,pp_plural_attractor_beside,pp_attractor,rl_dist_0095,True
+0,,The reporter beside the cars return.,The reporter beside the cars returns.,pp_plural_attractor_beside,pp_attractor,rl_dist_0096,True
+0,,The scientist beside the computers arrive.,The scientist beside the computers arrives.,pp_plural_attractor_beside,pp_attractor,rl_dist_0097,True
+0,,The robot beside the reports return.,The robot beside the reports returns.,pp_plural_attractor_beside,pp_attractor,rl_dist_0098,True
+0,,The teacher beside the reports smile.,The teacher beside the reports smiles.,pp_plural_attractor_beside,pp_attractor,rl_dist_0099,True
+0,,The robot beside the cars work.,The robot beside the cars works.,pp_plural_attractor_beside,pp_attractor,rl_dist_0100,True
+0,,The nurse near the cars read.,The nurse near the cars reads.,pp_plural_attractor_near,pp_attractor,rl_dist_0101,True
+0,,The writer near the maps close.,The writer near the maps closes.,pp_plural_attractor_near,pp_attractor,rl_dist_0102,True
+0,,The guard near the cabinets notice.,The guard near the cabinets notices.,pp_plural_attractor_near,pp_attractor,rl_dist_0103,True
+0,,The scientist near the keys open.,The scientist near the keys opens.,pp_plural_attractor_near,pp_attractor,rl_dist_0104,True
+0,,The writer near the keys arrive.,The writer near the keys arrives.,pp_plural_attractor_near,pp_attractor,rl_dist_0105,True
+0,,The teacher near the letters move.,The teacher near the letters moves.,pp_plural_attractor_near,pp_attractor,rl_dist_0106,True
+0,,The dog near the reports smile.,The dog near the reports smiles.,pp_plural_attractor_near,pp_attractor,rl_dist_0107,True
+0,,The nurse near the maps laugh.,The nurse near the maps laughs.,pp_plural_attractor_near,pp_attractor,rl_dist_0108,True
+0,,The robot near the paintings write.,The robot near the paintings writes.,pp_plural_attractor_near,pp_attractor,rl_dist_0109,True
+0,,The teacher near the cabinets dance.,The teacher near the cabinets dances.,pp_plural_attractor_near,pp_attractor,rl_dist_0110,True
+0,,The driver with the letters open.,The driver with the letters opens.,pp_plural_attractor_with,pp_attractor,rl_dist_0111,True
+0,,The actor with the computers open.,The actor with the computers opens.,pp_plural_attractor_with,pp_attractor,rl_dist_0112,True
+0,,The student with the cabinets travel.,The student with the cabinets travels.,pp_plural_attractor_with,pp_attractor,rl_dist_0113,True
+0,,The robot with the keys sleep.,The robot with the keys sleeps.,pp_plural_attractor_with,pp_attractor,rl_dist_0114,True
+0,,The author with the letters listen.,The author with the letters listens.,pp_plural_attractor_with,pp_attractor,rl_dist_0115,True
+0,,The writer with the reports work.,The writer with the reports works.,pp_plural_attractor_with,pp_attractor,rl_dist_0116,True
+0,,The chef with the students listen.,The chef with the students listens.,pp_plural_attractor_with,pp_attractor,rl_dist_0117,True
+0,,The robot with the gardens run.,The robot with the gardens runs.,pp_plural_attractor_with,pp_attractor,rl_dist_0118,True
+0,,The guard with the instruments answer.,The guard with the instruments answers.,pp_plural_attractor_with,pp_attractor,rl_dist_0119,True
+0,,The bird with the maps open.,The bird with the maps opens.,pp_plural_attractor_with,pp_attractor,rl_dist_0120,True
+0,,The judges behind the instrument arrives.,The judges behind the instrument arrive.,pp_singular_attractor_behind,pp_attractor,rl_dist_0121,True
+0,,The writers behind the computer listens.,The writers behind the computer listen.,pp_singular_attractor_behind,pp_attractor,rl_dist_0122,True
+0,,The teachers behind the map works.,The teachers behind the map work.,pp_singular_attractor_behind,pp_attractor,rl_dist_0123,True
+0,,The authors behind the computer listens.,The authors behind the computer listen.,pp_singular_attractor_behind,pp_attractor,rl_dist_0124,True
+0,,The dogs behind the map waits.,The dogs behind the map wait.,pp_singular_attractor_behind,pp_attractor,rl_dist_0125,True
+0,,The robots behind the instrument moves.,The robots behind the instrument move.,pp_singular_attractor_behind,pp_attractor,rl_dist_0126,True
+0,,The reporters behind the car laughs.,The reporters behind the car laugh.,pp_singular_attractor_behind,pp_attractor,rl_dist_0127,True
+0,,The chefs behind the report notices.,The chefs behind the report notice.,pp_singular_attractor_behind,pp_attractor,rl_dist_0128,True
+0,,The authors behind the painting sleeps.,The authors behind the painting sleep.,pp_singular_attractor_behind,pp_attractor,rl_dist_0129,True
+0,,The reporters behind the map speaks.,The reporters behind the map speak.,pp_singular_attractor_behind,pp_attractor,rl_dist_0130,True
+0,,The authors beside the map answers.,The authors beside the map answer.,pp_singular_attractor_beside,pp_attractor,rl_dist_0131,True
+0,,The authors beside the map smiles.,The authors beside the map smile.,pp_singular_attractor_beside,pp_attractor,rl_dist_0132,True
+0,,The teachers beside the key arrives.,The teachers beside the key arrive.,pp_singular_attractor_beside,pp_attractor,rl_dist_0133,True
+0,,The students beside the letter moves.,The students beside the letter move.,pp_singular_attractor_beside,pp_attractor,rl_dist_0134,True
+0,,The dancers beside the map dances.,The dancers beside the map dance.,pp_singular_attractor_beside,pp_attractor,rl_dist_0135,True
+0,,The judges beside the map smiles.,The judges beside the map smile.,pp_singular_attractor_beside,pp_attractor,rl_dist_0136,True
+0,,The dogs beside the book moves.,The dogs beside the book move.,pp_singular_attractor_beside,pp_attractor,rl_dist_0137,True
+0,,The pilots beside the map writes.,The pilots beside the map write.,pp_singular_attractor_beside,pp_attractor,rl_dist_0138,True
+0,,The teachers beside the cabinet writes.,The teachers beside the cabinet write.,pp_singular_attractor_beside,pp_attractor,rl_dist_0139,True
+0,,The nurses beside the book sleeps.,The nurses beside the book sleep.,pp_singular_attractor_beside,pp_attractor,rl_dist_0140,True
+0,,The scientists near the letter opens.,The scientists near the letter open.,pp_singular_attractor_near,pp_attractor,rl_dist_0141,True
+0,,The scientists near the garden notices.,The scientists near the garden notice.,pp_singular_attractor_near,pp_attractor,rl_dist_0142,True
+0,,The reporters near the report waits.,The reporters near the report wait.,pp_singular_attractor_near,pp_attractor,rl_dist_0143,True
+0,,The guards near the letter listens.,The guards near the letter listen.,pp_singular_attractor_near,pp_attractor,rl_dist_0144,True
+0,,The drivers near the map reads.,The drivers near the map read.,pp_singular_attractor_near,pp_attractor,rl_dist_0145,True
+0,,The musicians near the cabinet smiles.,The musicians near the cabinet smile.,pp_singular_attractor_near,pp_attractor,rl_dist_0146,True
+0,,The authors near the book sleeps.,The authors near the book sleep.,pp_singular_attractor_near,pp_attractor,rl_dist_0147,True
+0,,The teachers near the painting arrives.,The teachers near the painting arrive.,pp_singular_attractor_near,pp_attractor,rl_dist_0148,True
+0,,The pilots near the computer opens.,The pilots near the computer open.,pp_singular_attractor_near,pp_attractor,rl_dist_0149,True
+0,,The authors near the instrument laughs.,The authors near the instrument laugh.,pp_singular_attractor_near,pp_attractor,rl_dist_0150,True
+0,,The authors with the cabinet notices.,The authors with the cabinet notice.,pp_singular_attractor_with,pp_attractor,rl_dist_0151,True
+0,,The birds with the report travels.,The birds with the report travel.,pp_singular_attractor_with,pp_attractor,rl_dist_0152,True
+0,,The nurses with the book listens.,The nurses with the book listen.,pp_singular_attractor_with,pp_attractor,rl_dist_0153,True
+0,,The drivers with the map works.,The drivers with the map work.,pp_singular_attractor_with,pp_attractor,rl_dist_0154,True
+0,,The drivers with the report answers.,The drivers with the report answer.,pp_singular_attractor_with,pp_attractor,rl_dist_0155,True
+0,,The students with the cabinet writes.,The students with the cabinet write.,pp_singular_attractor_with,pp_attractor,rl_dist_0156,True
+0,,The managers with the instrument laughs.,The managers with the instrument laugh.,pp_singular_attractor_with,pp_attractor,rl_dist_0157,True
+0,,The drivers with the letter opens.,The drivers with the letter open.,pp_singular_attractor_with,pp_attractor,rl_dist_0158,True
+0,,The chefs with the garden works.,The chefs with the garden work.,pp_singular_attractor_with,pp_attractor,rl_dist_0159,True
+0,,The pilots with the cabinet waits.,The pilots with the cabinet wait.,pp_singular_attractor_with,pp_attractor,rl_dist_0160,True
+0,,The dogs arrives.,The dogs arrive.,simple_plural,simple_agreement,rl_dist_0161,True
+0,,The teachers works.,The teachers work.,simple_plural,simple_agreement,rl_dist_0162,True
+0,,The dogs works.,The dogs work.,simple_plural,simple_agreement,rl_dist_0163,True
+0,,The dancers arrives.,The dancers arrive.,simple_plural,simple_agreement,rl_dist_0164,True
+0,,The writers arrives.,The writers arrive.,simple_plural,simple_agreement,rl_dist_0165,True
+0,,The reporters dances.,The reporters dance.,simple_plural,simple_agreement,rl_dist_0166,True
+0,,The guards arrives.,The guards arrive.,simple_plural,simple_agreement,rl_dist_0167,True
+0,,The authors notices.,The authors notice.,simple_plural,simple_agreement,rl_dist_0168,True
+0,,The writers travels.,The writers travel.,simple_plural,simple_agreement,rl_dist_0169,True
+0,,The judges travels.,The judges travel.,simple_plural,simple_agreement,rl_dist_0170,True
+0,,The judges works.,The judges work.,simple_plural,simple_agreement,rl_dist_0171,True
+0,,The authors arrives.,The authors arrive.,simple_plural,simple_agreement,rl_dist_0172,True
+0,,The birds dances.,The birds dance.,simple_plural,simple_agreement,rl_dist_0173,True
+0,,The students works.,The students work.,simple_plural,simple_agreement,rl_dist_0174,True
+0,,The chefs reads.,The chefs read.,simple_plural,simple_agreement,rl_dist_0175,True
+0,,The students waits.,The students wait.,simple_plural,simple_agreement,rl_dist_0176,True
+0,,The authors runs.,The authors run.,simple_plural,simple_agreement,rl_dist_0177,True
+0,,The reporters answers.,The reporters answer.,simple_plural,simple_agreement,rl_dist_0178,True
+0,,The reporters travels.,The reporters travel.,simple_plural,simple_agreement,rl_dist_0179,True
+0,,The musicians arrives.,The musicians arrive.,simple_plural,simple_agreement,rl_dist_0180,True
+0,,The boys answers.,The boys answer.,simple_plural,simple_agreement,rl_dist_0181,True
+0,,The guards reads.,The guards read.,simple_plural,simple_agreement,rl_dist_0182,True
+0,,The drivers answers.,The drivers answer.,simple_plural,simple_agreement,rl_dist_0183,True
+0,,The musicians returns.,The musicians return.,simple_plural,simple_agreement,rl_dist_0184,True
+0,,The scientists reads.,The scientists read.,simple_plural,simple_agreement,rl_dist_0185,True
+0,,The dancers returns.,The dancers return.,simple_plural,simple_agreement,rl_dist_0186,True
+0,,The writers smiles.,The writers smile.,simple_plural,simple_agreement,rl_dist_0187,True
+0,,The students reads.,The students read.,simple_plural,simple_agreement,rl_dist_0188,True
+0,,The guards answers.,The guards answer.,simple_plural,simple_agreement,rl_dist_0189,True
+0,,The scientists notices.,The scientists notice.,simple_plural,simple_agreement,rl_dist_0190,True
+0,,The dancers works.,The dancers work.,simple_plural,simple_agreement,rl_dist_0191,True
+0,,The musicians smiles.,The musicians smile.,simple_plural,simple_agreement,rl_dist_0192,True
+0,,The musicians runs.,The musicians run.,simple_plural,simple_agreement,rl_dist_0193,True
+0,,The managers answers.,The managers answer.,simple_plural,simple_agreement,rl_dist_0194,True
+0,,The musicians waits.,The musicians wait.,simple_plural,simple_agreement,rl_dist_0195,True
+0,,The students writes.,The students write.,simple_plural,simple_agreement,rl_dist_0196,True
+0,,The authors answers.,The authors answer.,simple_plural,simple_agreement,rl_dist_0197,True
+0,,The students runs.,The students run.,simple_plural,simple_agreement,rl_dist_0198,True
+0,,The birds answers.,The birds answer.,simple_plural,simple_agreement,rl_dist_0199,True
+0,,The pilots arrives.,The pilots arrive.,simple_plural,simple_agreement,rl_dist_0200,True
+0,,The musician open.,The musician opens.,simple_singular,simple_agreement,rl_dist_0201,True
+0,,The robot open.,The robot opens.,simple_singular,simple_agreement,rl_dist_0202,True
+0,,The robot study.,The robot studies.,simple_singular,simple_agreement,rl_dist_0203,True
+0,,The scientist speak.,The scientist speaks.,simple_singular,simple_agreement,rl_dist_0204,True
+0,,The actor speak.,The actor speaks.,simple_singular,simple_agreement,rl_dist_0205,True
+0,,The judge sleep.,The judge sleeps.,simple_singular,simple_agreement,rl_dist_0206,True
+0,,The manager open.,The manager opens.,simple_singular,simple_agreement,rl_dist_0207,True
+0,,The dog sleep.,The dog sleeps.,simple_singular,simple_agreement,rl_dist_0208,True
+0,,The dog speak.,The dog speaks.,simple_singular,simple_agreement,rl_dist_0209,True
+0,,The chef sleep.,The chef sleeps.,simple_singular,simple_agreement,rl_dist_0210,True
+0,,The actor open.,The actor opens.,simple_singular,simple_agreement,rl_dist_0211,True
+0,,The reporter speak.,The reporter speaks.,simple_singular,simple_agreement,rl_dist_0212,True
+0,,The guard open.,The guard opens.,simple_singular,simple_agreement,rl_dist_0213,True
+0,,The dancer speak.,The dancer speaks.,simple_singular,simple_agreement,rl_dist_0214,True
+0,,The student write.,The student writes.,simple_singular,simple_agreement,rl_dist_0215,True
+0,,The pilot close.,The pilot closes.,simple_singular,simple_agreement,rl_dist_0216,True
+0,,The dancer close.,The dancer closes.,simple_singular,simple_agreement,rl_dist_0217,True
+0,,The author speak.,The author speaks.,simple_singular,simple_agreement,rl_dist_0218,True
+0,,The guard laugh.,The guard laughs.,simple_singular,simple_agreement,rl_dist_0219,True
+0,,The bird listen.,The bird listens.,simple_singular,simple_agreement,rl_dist_0220,True
+0,,The chef close.,The chef closes.,simple_singular,simple_agreement,rl_dist_0221,True
+0,,The manager listen.,The manager listens.,simple_singular,simple_agreement,rl_dist_0222,True
+0,,The author close.,The author closes.,simple_singular,simple_agreement,rl_dist_0223,True
+0,,The driver write.,The driver writes.,simple_singular,simple_agreement,rl_dist_0224,True
+0,,The pilot laugh.,The pilot laughs.,simple_singular,simple_agreement,rl_dist_0225,True
+0,,The manager study.,The manager studies.,simple_singular,simple_agreement,rl_dist_0226,True
+0,,The nurse close.,The nurse closes.,simple_singular,simple_agreement,rl_dist_0227,True
+0,,The bird speak.,The bird speaks.,simple_singular,simple_agreement,rl_dist_0228,True
+0,,The student move.,The student moves.,simple_singular,simple_agreement,rl_dist_0229,True
+0,,The writer close.,The writer closes.,simple_singular,simple_agreement,rl_dist_0230,True
+0,,The pilot move.,The pilot moves.,simple_singular,simple_agreement,rl_dist_0231,True
+0,,The manager write.,The manager writes.,simple_singular,simple_agreement,rl_dist_0232,True
+0,,The robot move.,The robot moves.,simple_singular,simple_agreement,rl_dist_0233,True
+0,,The musician move.,The musician moves.,simple_singular,simple_agreement,rl_dist_0234,True
+0,,The bird study.,The bird studies.,simple_singular,simple_agreement,rl_dist_0235,True
+0,,The dog laugh.,The dog laughs.,simple_singular,simple_agreement,rl_dist_0236,True
+0,,The dog study.,The dog studies.,simple_singular,simple_agreement,rl_dist_0237,True
+0,,The reporter laugh.,The reporter laughs.,simple_singular,simple_agreement,rl_dist_0238,True
+0,,The scientist study.,The scientist studies.,simple_singular,simple_agreement,rl_dist_0239,True
+0,,The writer open.,The writer opens.,simple_singular,simple_agreement,rl_dist_0240,True

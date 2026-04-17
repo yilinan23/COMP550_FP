@@ -1,0 +1,13 @@
+experiment:
+  name: sanity_check
+
+inputs:
+  benchmark_dataset: data/generated/agreement_large_controlled.jsonl
+  rl_dataset: data/generated/syntax_rl_distribution_aware_large.jsonl
+  comparison_results: outputs/benchmark_vs_rl/benchmark_vs_rl_results.csv
+
+analysis:
+  manual_sample_size: 20
+
+outputs:
+  sanity_dir: outputs/sanity_check

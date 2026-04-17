@@ -1,0 +1,64 @@
+experiment:
+  name: large_controlled_subtype_analysis_multi_model
+  seed: 42
+
+data:
+  path: data/generated/agreement_large_controlled.jsonl
+  phenomenon: agreement
+
+models:
+  - id: hf_tiny_gpt2
+    label: Hugging Face tiny GPT-2
+    enabled: true
+    provider: huggingface
+    name: sshleifer/tiny-gpt2
+    device: cpu
+    normalize_by_token_count: true
+    cache_dir: outputs/cache/huggingface
+
+  - id: hf_distilgpt2
+    label: Hugging Face DistilGPT-2
+    enabled: true
+    provider: huggingface
+    name: distilgpt2
+    device: cpu
+    normalize_by_token_count: true
+    cache_dir: outputs/cache/huggingface
+
+  - id: hf_gpt2
+    label: Hugging Face GPT-2
+    enabled: true
+    provider: huggingface
+    name: gpt2
+    device: cpu
+    normalize_by_token_count: true
+    cache_dir: outputs/cache/huggingface
+
+  - id: hf_mistral_7b_instruct
+    label: Mistral 7B Instruct v0.3
+    enabled: false
+    provider: huggingface
+    name: mistralai/Mistral-7B-Instruct-v0.3
+    device: auto
+    normalize_by_token_count: true
+    cache_dir: outputs/cache/huggingface
+    tokenizer_use_fast: false
+    torch_dtype: auto
+    low_cpu_mem_usage: true
+    device_map: auto
+    offload_folder: outputs/cache/huggingface_offload/mistral_subtype
+
+evaluation:
+  group_by:
+    - template_type
+    - subtype
+    - dependency_distance_bucket
+    - clause_depth
+  near_failure_margin: 0.01
+  continue_on_error: true
+  hard_subtype_top_n: 3
+  difficulty_change_accuracy_delta: 0.25
+
+outputs:
+  analysis_dir: outputs/subtype_analysis_multi_model
+  figures_dir: outputs/subtype_analysis_multi_model/figures

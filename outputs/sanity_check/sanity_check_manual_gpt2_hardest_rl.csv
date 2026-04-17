@@ -1,0 +1,21 @@
+correct,dataset,grammatical,grammatical_score,model_id,preference_margin,subtype,template_type,uid,ungrammatical,ungrammatical_score
+False,rl,The boy who the neighbors call opens.,-7.559280940464565,hf_gpt2,-0.8260536193847656,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0020,The boy who the neighbors call open.,-6.7332273210797995
+False,rl,The boy who the farmers help moves.,-7.765639168875558,hf_gpt2,-0.65575681413923,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0022,The boy who the farmers help move.,-7.109882354736328
+False,rl,The chef that the mechanic calls studies.,-8.244489397321429,hf_gpt2,-0.4847957066127231,object_relative_clause_that,relative_clause,rl_dist_0033,The chef that the mechanic calls study.,-7.759693690708706
+False,rl,The actor with the computers opens.,-7.402137756347656,hf_gpt2,-0.4683876037597656,pp_plural_attractor_with,pp_attractor,rl_dist_0112,The actor with the computers open.,-6.933750152587891
+False,rl,The driver with the letters opens.,-7.105771382649739,hf_gpt2,-0.4555854797363281,pp_plural_attractor_with,pp_attractor,rl_dist_0111,The driver with the letters open.,-6.650185902913411
+False,rl,The judge that the mechanic likes closes.,-8.392995016915458,hf_gpt2,-0.4355468750000009,object_relative_clause_that,relative_clause,rl_dist_0046,The judge that the mechanic likes close.,-7.9574481419154575
+False,rl,The driver who the doctors question opens.,-8.309165409633092,hf_gpt2,-0.4236264910016745,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0028,The driver who the doctors question open.,-7.8855389186314175
+False,rl,The manager behind the computers closes.,-7.349108378092448,hf_gpt2,-0.32698949178059955,pp_plural_attractor_behind,pp_attractor,rl_dist_0087,The manager behind the computers close.,-7.022118886311849
+False,rl,The nurse closes.,-9.335127512613932,hf_gpt2,-0.29259490966796875,simple_singular,simple_agreement,rl_dist_0227,The nurse close.,-9.042532602945963
+False,rl,The manager that the librarians like runs.,-6.149879031711155,hf_gpt2,-0.2718836466471357,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0010,The manager that the librarians like run.,-5.877995385064019
+False,rl,The pilot moves.,-8.518620808919271,hf_gpt2,-0.26656468709309955,simple_singular,simple_agreement,rl_dist_0231,The pilot move.,-8.252056121826172
+False,rl,The musician that the artists trust studies.,-8.108995710100446,hf_gpt2,-0.2539738246372769,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0003,The musician that the artists trust study.,-7.855021885463169
+False,rl,The dog studies.,-8.170751571655273,hf_gpt2,-0.2283185323079424,simple_singular,simple_agreement,rl_dist_0237,The dog study.,-7.942433039347331
+False,rl,The actor who the visitors follow studies.,-8.486759730747767,hf_gpt2,-0.2279815673828125,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0027,The actor who the visitors follow study.,-8.258778163364955
+False,rl,The bird that the editors remember opens.,-7.734874180385044,hf_gpt2,-0.20916530064174044,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0011,The bird that the editors remember open.,-7.525708879743304
+False,rl,The student who the editors remember notices.,-8.113615308489118,hf_gpt2,-0.20863233293805816,object_relative_clause_plural_embedded_who,relative_clause,rl_dist_0031,The student who the editors remember notice.,-7.90498297555106
+False,rl,The birds with the report travel.,-7.592810312906901,hf_gpt2,-0.1940905253092451,pp_singular_attractor_with,pp_attractor,rl_dist_0152,The birds with the report travels.,-7.398719787597656
+False,rl,The bird with the maps opens.,-6.973318735758464,hf_gpt2,-0.1870587666829433,pp_plural_attractor_with,pp_attractor,rl_dist_0120,The bird with the maps open.,-6.7862599690755205
+False,rl,The manager that the doctors call travels.,-7.561218806675503,hf_gpt2,-0.1863495962960382,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0012,The manager that the doctors call travel.,-7.374869210379464
+False,rl,The reporter that the visitors question moves.,-7.8814206804547995,hf_gpt2,-0.15590722220284636,object_relative_clause_plural_embedded_that,relative_clause,rl_dist_0015,The reporter that the visitors question move.,-7.725513458251953

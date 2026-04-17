@@ -1,0 +1,249 @@
+{
+  "total": 240,
+  "target_total": 240,
+  "subtype_distribution": {
+    "object_relative_clause_plural_embedded_that": 16,
+    "object_relative_clause_plural_embedded_who": 16,
+    "object_relative_clause_that": 16,
+    "object_relative_clause_who": 16,
+    "plural_object_relative_clause_that": 16,
+    "pp_plural_attractor_behind": 10,
+    "pp_plural_attractor_beside": 10,
+    "pp_plural_attractor_near": 10,
+    "pp_plural_attractor_with": 10,
+    "pp_singular_attractor_behind": 10,
+    "pp_singular_attractor_beside": 10,
+    "pp_singular_attractor_near": 10,
+    "pp_singular_attractor_with": 10,
+    "simple_plural": 40,
+    "simple_singular": 40
+  },
+  "template_type_distribution": {
+    "relative_clause": 80,
+    "pp_attractor": 80,
+    "simple_agreement": 80
+  },
+  "dependency_distance_bucket_distribution": {
+    "long_5_plus": 80,
+    "medium_2_4": 80,
+    "short_1": 80
+  },
+  "clause_depth_distribution": {
+    "1": 80,
+    "0": 160
+  },
+  "target_distribution": {
+    "subtype": {
+      "pp_plural_attractor_near": 10,
+      "object_relative_clause_that": 16,
+      "simple_singular": 40,
+      "pp_singular_attractor_near": 10,
+      "object_relative_clause_who": 16,
+      "simple_plural": 40,
+      "pp_plural_attractor_behind": 10,
+      "plural_object_relative_clause_that": 16,
+      "pp_singular_attractor_behind": 10,
+      "object_relative_clause_plural_embedded_that": 16,
+      "pp_plural_attractor_beside": 10,
+      "object_relative_clause_plural_embedded_who": 16,
+      "pp_singular_attractor_beside": 10,
+      "pp_plural_attractor_with": 10,
+      "pp_singular_attractor_with": 10
+    },
+    "template_type": {
+      "pp_attractor": 80,
+      "relative_clause": 80,
+      "simple_agreement": 80
+    },
+    "dependency_distance_bucket": {
+      "medium_2_4": 80,
+      "long_5_plus": 80,
+      "short_1": 80
+    },
+    "clause_depth": {
+      "0": 160,
+      "1": 80
+    }
+  },
+  "distribution_comparison": [
+    {
+      "subtype": "object_relative_clause_plural_embedded_that",
+      "target_count": 16,
+      "achieved_count": 16,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.06666666666666667,
+      "achieved_share": 0.06666666666666667
+    },
+    {
+      "subtype": "object_relative_clause_plural_embedded_who",
+      "target_count": 16,
+      "achieved_count": 16,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.06666666666666667,
+      "achieved_share": 0.06666666666666667
+    },
+    {
+      "subtype": "object_relative_clause_that",
+      "target_count": 16,
+      "achieved_count": 16,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.06666666666666667,
+      "achieved_share": 0.06666666666666667
+    },
+    {
+      "subtype": "object_relative_clause_who",
+      "target_count": 16,
+      "achieved_count": 16,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.06666666666666667,
+      "achieved_share": 0.06666666666666667
+    },
+    {
+      "subtype": "plural_object_relative_clause_that",
+      "target_count": 16,
+      "achieved_count": 16,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.06666666666666667,
+      "achieved_share": 0.06666666666666667
+    },
+    {
+      "subtype": "pp_plural_attractor_behind",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_plural_attractor_beside",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_plural_attractor_near",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_plural_attractor_with",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_singular_attractor_behind",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_singular_attractor_beside",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_singular_attractor_near",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "pp_singular_attractor_with",
+      "target_count": 10,
+      "achieved_count": 10,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.041666666666666664,
+      "achieved_share": 0.041666666666666664
+    },
+    {
+      "subtype": "simple_plural",
+      "target_count": 40,
+      "achieved_count": 40,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.16666666666666666,
+      "achieved_share": 0.16666666666666666
+    },
+    {
+      "subtype": "simple_singular",
+      "target_count": 40,
+      "achieved_count": 40,
+      "missing_count": 0,
+      "extra_count": 0,
+      "target_share": 0.16666666666666666,
+      "achieved_share": 0.16666666666666666
+    }
+  ],
+  "coverage_gaps": [],
+  "overfilled_subtypes": [],
+  "config": {
+    "experiment": {
+      "name": "syntax_rl_distribution_aware_large",
+      "seed": 42
+    },
+    "inputs": {
+      "benchmark_distribution": {
+        "path": "data/generated/agreement_large_controlled.jsonl",
+        "phenomenon": "agreement"
+      }
+    },
+    "generation": {
+      "target_total": 240,
+      "attempts_per_target": 8,
+      "max_attempts": 4000,
+      "target_template_types": [
+        "simple_agreement",
+        "pp_attractor",
+        "relative_clause"
+      ],
+      "target_counts": null
+    },
+    "model": {
+      "provider": "huggingface",
+      "name": "sshleifer/tiny-gpt2",
+      "device": "cpu",
+      "normalize_by_token_count": true,
+      "cache_dir": "outputs/cache/huggingface"
+    },
+    "scoring": {
+      "near_failure_margin": 0.01,
+      "model_failure_weight": 1.0,
+      "boundary_weight": 0.5,
+      "margin_weight": 0.1,
+      "underrepresented_subtype_bonus": 0.25,
+      "overrepresented_subtype_penalty": 0.5
+    },
+    "outputs": {
+      "generated_dir": "data/generated",
+      "summary_dir": "outputs/distribution_aware_rl"
+    }
+  }
+}

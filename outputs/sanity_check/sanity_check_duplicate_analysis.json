@@ -1,0 +1,8 @@
+{
+  "duplicate_pair_count": 0,
+  "duplicate_good_sentence_count": 0,
+  "duplicate_bad_sentence_count": 0,
+  "duplicate_uid_count": 0,
+  "max_pair_repetition": 1,
+  "max_good_sentence_repetition": 1
+}

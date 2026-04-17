@@ -1,0 +1,518 @@
+{
+  "dataset_summary": {
+    "benchmark": {
+      "total": 240,
+      "subtype_counts": {
+        "pp_plural_attractor_near": 10,
+        "object_relative_clause_that": 16,
+        "simple_singular": 40,
+        "pp_singular_attractor_near": 10,
+        "object_relative_clause_who": 16,
+        "simple_plural": 40,
+        "pp_plural_attractor_behind": 10,
+        "plural_object_relative_clause_that": 16,
+        "pp_singular_attractor_behind": 10,
+        "object_relative_clause_plural_embedded_that": 16,
+        "pp_plural_attractor_beside": 10,
+        "object_relative_clause_plural_embedded_who": 16,
+        "pp_singular_attractor_beside": 10,
+        "pp_plural_attractor_with": 10,
+        "pp_singular_attractor_with": 10
+      },
+      "template_type_counts": {
+        "pp_attractor": 80,
+        "relative_clause": 80,
+        "simple_agreement": 80
+      },
+      "dependency_distance_bucket_counts": {
+        "medium_2_4": 80,
+        "long_5_plus": 80,
+        "short_1": 80
+      },
+      "clause_depth_counts": {
+        "0": 160,
+        "1": 80
+      }
+    },
+    "rl": {
+      "total": 240,
+      "subtype_counts": {
+        "object_relative_clause_plural_embedded_that": 16,
+        "object_relative_clause_plural_embedded_who": 16,
+        "object_relative_clause_that": 16,
+        "object_relative_clause_who": 16,
+        "plural_object_relative_clause_that": 16,
+        "pp_plural_attractor_behind": 10,
+        "pp_plural_attractor_beside": 10,
+        "pp_plural_attractor_near": 10,
+        "pp_plural_attractor_with": 10,
+        "pp_singular_attractor_behind": 10,
+        "pp_singular_attractor_beside": 10,
+        "pp_singular_attractor_near": 10,
+        "pp_singular_attractor_with": 10,
+        "simple_plural": 40,
+        "simple_singular": 40
+      },
+      "template_type_counts": {
+        "relative_clause": 80,
+        "pp_attractor": 80,
+        "simple_agreement": 80
+      },
+      "dependency_distance_bucket_counts": {
+        "long_5_plus": 80,
+        "medium_2_4": 80,
+        "short_1": 80
+      },
+      "clause_depth_counts": {
+        "1": 80,
+        "0": 160
+      }
+    },
+    "subtype_coverage": {
+      "shared": [
+        "object_relative_clause_plural_embedded_that",
+        "object_relative_clause_plural_embedded_who",
+        "object_relative_clause_that",
+        "object_relative_clause_who",
+        "plural_object_relative_clause_that",
+        "pp_plural_attractor_behind",
+        "pp_plural_attractor_beside",
+        "pp_plural_attractor_near",
+        "pp_plural_attractor_with",
+        "pp_singular_attractor_behind",
+        "pp_singular_attractor_beside",
+        "pp_singular_attractor_near",
+        "pp_singular_attractor_with",
+        "simple_plural",
+        "simple_singular"
+      ],
+      "benchmark_only": [],
+      "rl_only": [],
+      "matched": true
+    },
+    "template_type_coverage": {
+      "shared": [
+        "pp_attractor",
+        "relative_clause",
+        "simple_agreement"
+      ],
+      "benchmark_only": [],
+      "rl_only": [],
+      "matched": true
+    }
+  },
+  "duplicate_summary": {
+    "duplicate_pair_count": 0,
+    "duplicate_good_sentence_count": 0,
+    "duplicate_bad_sentence_count": 0,
+    "duplicate_uid_count": 0,
+    "max_pair_repetition": 1,
+    "max_good_sentence_repetition": 1
+  },
+  "lexical_summary": {
+    "benchmark": {
+      "total": 240,
+      "unique_noun_count": 88,
+      "unique_verb_count": 66,
+      "unique_preposition_count": 4,
+      "top_nouns": [
+        [
+          "students",
+          15
+        ],
+        [
+          "boy",
+          12
+        ],
+        [
+          "musician",
+          11
+        ],
+        [
+          "chef",
+          11
+        ],
+        [
+          "judge",
+          10
+        ],
+        [
+          "pilot",
+          10
+        ],
+        [
+          "student",
+          9
+        ],
+        [
+          "guard",
+          8
+        ],
+        [
+          "writer",
+          8
+        ],
+        [
+          "pilots",
+          8
+        ]
+      ],
+      "top_verbs": [
+        [
+          "answers",
+          12
+        ],
+        [
+          "notices",
+          12
+        ],
+        [
+          "runs",
+          12
+        ],
+        [
+          "travels",
+          10
+        ],
+        [
+          "studies",
+          9
+        ],
+        [
+          "writes",
+          9
+        ],
+        [
+          "return",
+          8
+        ],
+        [
+          "closes",
+          8
+        ],
+        [
+          "laughs",
+          8
+        ],
+        [
+          "dance",
+          7
+        ]
+      ],
+      "top_prepositions": [
+        [
+          "near",
+          20
+        ],
+        [
+          "behind",
+          20
+        ],
+        [
+          "beside",
+          20
+        ],
+        [
+          "with",
+          20
+        ]
+      ],
+      "top_patterns": [
+        [
+          "simple_plural|boys|dance|",
+          2
+        ],
+        [
+          "simple_plural|judges|move|",
+          2
+        ],
+        [
+          "simple_plural|actors|sleep|",
+          2
+        ],
+        [
+          "simple_singular|chef|runs|",
+          2
+        ],
+        [
+          "simple_singular|robot|answers|",
+          2
+        ],
+        [
+          "pp_plural_attractor_near|boy+keys|studies|near",
+          1
+        ],
+        [
+          "object_relative_clause_that|guard+artist|follows+travels|",
+          1
+        ],
+        [
+          "simple_singular|musician|travels|",
+          1
+        ],
+        [
+          "pp_singular_attractor_near|authors+cabinet|dance|near",
+          1
+        ],
+        [
+          "object_relative_clause_who|actor+broker|observes+travels|",
+          1
+        ]
+      ],
+      "top_pattern_share": 0.008333333333333333
+    },
+    "rl": {
+      "total": 240,
+      "unique_noun_count": 86,
+      "unique_verb_count": 64,
+      "unique_preposition_count": 4,
+      "top_nouns": [
+        [
+          "authors",
+          12
+        ],
+        [
+          "manager",
+          11
+        ],
+        [
+          "nurse",
+          11
+        ],
+        [
+          "author",
+          10
+        ],
+        [
+          "writer",
+          10
+        ],
+        [
+          "map",
+          10
+        ],
+        [
+          "teacher",
+          9
+        ],
+        [
+          "students",
+          9
+        ],
+        [
+          "robot",
+          9
+        ],
+        [
+          "scientist",
+          7
+        ]
+      ],
+      "top_verbs": [
+        [
+          "opens",
+          21
+        ],
+        [
+          "moves",
+          20
+        ],
+        [
+          "speaks",
+          12
+        ],
+        [
+          "studies",
+          12
+        ],
+        [
+          "listens",
+          12
+        ],
+        [
+          "answer",
+          11
+        ],
+        [
+          "arrive",
+          11
+        ],
+        [
+          "closes",
+          10
+        ],
+        [
+          "laughs",
+          9
+        ],
+        [
+          "work",
+          9
+        ]
+      ],
+      "top_prepositions": [
+        [
+          "behind",
+          20
+        ],
+        [
+          "beside",
+          20
+        ],
+        [
+          "near",
+          20
+        ],
+        [
+          "with",
+          20
+        ]
+      ],
+      "top_patterns": [
+        [
+          "object_relative_clause_plural_embedded_that|teacher+neighbors|follow+speaks|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|dog+doctors|support+moves|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|musician+artists|trust+studies|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|scientist+neighbors|call+speaks|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|teacher+artists|guide+writes|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|dancer+mechanics|call+listens|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|manager+lawyers|help+listens|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|driver+doctors|support+studies|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|musician+visitors|admire+moves|",
+          1
+        ],
+        [
+          "object_relative_clause_plural_embedded_that|manager+librarians|like+runs|",
+          1
+        ]
+      ],
+      "top_pattern_share": 0.004166666666666667
+    }
+  },
+  "disagreement_summary": {
+    "benchmark:mixed_disagreement": 36,
+    "benchmark:tiny_fails_stronger_succeed": 91,
+    "benchmark:all_models_fail": 13,
+    "benchmark:all_models_succeed": 81,
+    "benchmark:only_one_stronger_model_fails": 19,
+    "rl:mixed_disagreement": 45,
+    "rl:all_models_fail": 30,
+    "rl:tiny_fails_stronger_succeed": 162,
+    "rl:only_one_stronger_model_fails": 2,
+    "rl:all_models_succeed": 1
+  },
+  "final_summary": {
+    "subtype_collapse_evidence": false,
+    "top_rl_subtype_share": 0.16666666666666666,
+    "lexical_collapse_evidence": false,
+    "rl_top_pattern_share": 0.004166666666666667,
+    "benchmark_top_pattern_share": 0.008333333333333333,
+    "duplicate_or_near_duplicate_evidence": false,
+    "validation_error_count": 0,
+    "grammar_or_metadata_issue_evidence": false,
+    "tiny_artifact_exploitation_evidence": true,
+    "genuinely_harder_subtypes_across_stronger_models": [
+      {
+        "subtype": "object_relative_clause_plural_embedded_that",
+        "failure_rates": {
+          "hf_distilgpt2": 0.6875,
+          "hf_gpt2": 0.625
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_with",
+        "failure_rates": {
+          "hf_distilgpt2": 0.7,
+          "hf_gpt2": 0.6
+        }
+      },
+      {
+        "subtype": "object_relative_clause_plural_embedded_who",
+        "failure_rates": {
+          "hf_distilgpt2": 0.625,
+          "hf_gpt2": 0.5
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_near",
+        "failure_rates": {
+          "hf_distilgpt2": 0.4,
+          "hf_gpt2": 0.5
+        }
+      },
+      {
+        "subtype": "pp_plural_attractor_behind",
+        "failure_rates": {
+          "hf_distilgpt2": 0.5,
+          "hf_gpt2": 0.2
+        }
+      },
+      {
+        "subtype": "object_relative_clause_that",
+        "failure_rates": {
+          "hf_distilgpt2": 0.25,
+          "hf_gpt2": 0.25
+        }
+      },
+      {
+        "subtype": "pp_singular_attractor_with",
+        "failure_rates": {
+          "hf_distilgpt2": 0.2,
+          "hf_gpt2": 0.2
+        }
+      }
+    ],
+    "disagreement_summary": {
+      "benchmark:mixed_disagreement": 36,
+      "benchmark:tiny_fails_stronger_succeed": 91,
+      "benchmark:all_models_fail": 13,
+      "benchmark:all_models_succeed": 81,
+      "benchmark:only_one_stronger_model_fails": 19,
+      "rl:mixed_disagreement": 45,
+      "rl:all_models_fail": 30,
+      "rl:tiny_fails_stronger_succeed": 162,
+      "rl:only_one_stronger_model_fails": 2,
+      "rl:all_models_succeed": 1
+    }
+  },
+  "config": {
+    "experiment": {
+      "name": "sanity_check"
+    },
+    "inputs": {
+      "benchmark_dataset": "data/generated/agreement_large_controlled.jsonl",
+      "rl_dataset": "data/generated/syntax_rl_distribution_aware_large.jsonl",
+      "comparison_results": "outputs/benchmark_vs_rl/benchmark_vs_rl_results.csv"
+    },
+    "analysis": {
+      "manual_sample_size": 20
+    },
+    "outputs": {
+      "sanity_dir": "outputs/sanity_check"
+    }
+  }
+}
