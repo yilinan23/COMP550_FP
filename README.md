@@ -1,9 +1,5 @@
 # Discovering Syntactic Failure Cases via Reinforcement Learning
 
-This folder is a minimal, result-focused export of the COMP 550 syntax RL
-project. It contains only the code, datasets, and outputs needed to reproduce
-or inspect the results discussed in the project report. The report source and
-PDF are intentionally not included in this GitHub export.
 
 ## Contents
 
