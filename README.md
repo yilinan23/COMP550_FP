@@ -141,3 +141,42 @@ Run multi-model subtype analysis:
 py -m syntax_rl.analysis.subtype_analysis --config configs/subtype_analysis_multi_model.yaml
 ```
 
+## Optional Mistral Evaluation
+
+The repository also includes configs for running the open-source
+instruction-tuned model `mistralai/Mistral-7B-Instruct-v0.3` through the same
+Hugging Face scoring pipeline. This model is much larger than the GPT-2-family
+models above, so it may require a GPU or enough CPU RAM plus disk offloading.
+It may also download more than 10 GB of model weights on first use.
+
+Start with a small smoke test:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_smoke.yaml
+```
+
+If the smoke test works, run the full 240-vs-240 benchmark-vs-RL comparison:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_full.yaml
+```
+
+For subtype-level Mistral analysis, first try the small matched-subtype run:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis_small_test.yaml
+```
+
+Then run the main matched-subtype Mistral analysis:
+
+```powershell
+py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis.yaml
+```
+
+Expected output directories:
+
+- `outputs/benchmark_vs_rl_mistral_smoke/`
+- `outputs/benchmark_vs_rl_mistral_full/`
+- `outputs/mistral_subtype_analysis_small_test/`
+- `outputs/mistral_subtype_analysis/`
+
