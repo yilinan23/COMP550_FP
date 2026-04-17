@@ -96,38 +96,6 @@ Important hard subtypes include:
 - `pp_plural_attractor_behind`
 - `pp_singular_attractor_with`
 
-## Repository Contents
-
-```text
-configs/
-  benchmark_vs_rl.yaml              # Main benchmark-vs-RL evaluation config
-  rl_distribution_aware.yaml        # Distribution-aware RL generation config
-  sanity_check.yaml                 # Dataset sanity-check config
-  subtype_analysis_multi_model.yaml # Multi-model subtype analysis config
-
-data/generated/
-  agreement_large_controlled.jsonl
-  syntax_rl_distribution_aware_large.jsonl
-
-src/syntax_rl/
-  analysis/     # subtype analysis and sanity-check scripts
-  data/         # BLiMP-style data loading utilities
-  evaluation/   # benchmark-vs-RL and multi-model evaluation
-  generator/    # controlled sentence realization
-  models/       # Hugging Face scoring interface
-  rl/           # RL environment, rewards, rollout, and generation
-  utils/        # I/O, logging, and reproducibility helpers
-
-outputs/
-  benchmark_vs_rl/              # Main comparison tables and figures
-  distribution_aware_rl/        # RL distribution matching summaries
-  sanity_check/                 # Dataset validation and error analysis
-  subtype_analysis_multi_model/ # Subtype-level model comparison outputs
-```
-
-The export intentionally excludes the report itself, `agent/`, Hugging Face
-model caches, virtual environments, Python bytecode, and unrelated exploratory
-outputs.
 
 ## Setup
 
@@ -173,34 +141,3 @@ Run multi-model subtype analysis:
 py -m syntax_rl.analysis.subtype_analysis --config configs/subtype_analysis_multi_model.yaml
 ```
 
-## First Files to Inspect
-
-For the main benchmark-vs-RL result:
-
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_overall_summary.csv`
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_shared_subtype_comparison.csv`
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_report.md`
-- `outputs/benchmark_vs_rl/figures/benchmark_vs_rl_overall_accuracy_benchmark_vs_rl.png`
-
-For distribution matching:
-
-- `outputs/distribution_aware_rl/syntax_rl_distribution_aware_large_summary.md`
-- `outputs/distribution_aware_rl/syntax_rl_distribution_aware_large_distribution_comparison.csv`
-
-For sanity checks:
-
-- `outputs/sanity_check/sanity_check_report.md`
-- `outputs/sanity_check/sanity_check_summary.json`
-- `outputs/sanity_check/sanity_check_model_disagreement.csv`
-
-For subtype-level findings:
-
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_summary.md`
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_grouped_summary.csv`
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_cross_model_comparison.csv`
-
-## Notes
-
-The repository is intentionally compact and result-focused. It is meant to make
-the final project results inspectable without uploading unrelated development
-files, private agent logs, model caches, or the report document itself.
