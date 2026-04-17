@@ -1,6 +1,6 @@
 # Discovering Syntactic Failure Cases via Reinforcement Learning
 
-This repository contains the code and result artifacts for a COMP 550 NLP final
+This repository contains the code and result for a COMP 550 NLP final
 project on targeted syntactic evaluation of language models.
 
 The project asks whether reinforcement learning can discover harder
@@ -8,10 +8,6 @@ subject-verb agreement minimal pairs than a controlled benchmark, while keeping
 the generated data distribution-matched to the benchmark. The focus is not on
 training a new language model, but on using a lightweight RL search procedure
 to find syntactic test cases where existing language models fail.
-
-The report source and PDF are intentionally not included in this public export.
-This repository contains the reproducibility package: code, configs, generated
-datasets, analysis outputs, and figures.
 
 ## Research Question
 
@@ -100,42 +96,6 @@ Important hard subtypes include:
 - `pp_plural_attractor_behind`
 - `pp_singular_attractor_with`
 
-## Repository Contents
-
-```text
-configs/
-  benchmark_vs_rl.yaml              # Main benchmark-vs-RL evaluation config
-  benchmark_vs_rl_mistral_smoke.yaml # 5-example Mistral smoke test
-  benchmark_vs_rl_mistral_full.yaml  # Full Mistral benchmark-vs-RL config
-  mistral_subtype_analysis.yaml      # Mistral subtype analysis config
-  mistral_subtype_analysis_small_test.yaml
-  rl_distribution_aware.yaml        # Distribution-aware RL generation config
-  sanity_check.yaml                 # Dataset sanity-check config
-  subtype_analysis_multi_model.yaml # Multi-model subtype analysis config
-
-data/generated/
-  agreement_large_controlled.jsonl
-  syntax_rl_distribution_aware_large.jsonl
-
-src/syntax_rl/
-  analysis/     # subtype analysis and sanity-check scripts
-  data/         # BLiMP-style data loading utilities
-  evaluation/   # benchmark-vs-RL and multi-model evaluation
-  generator/    # controlled sentence realization
-  models/       # Hugging Face scoring interface
-  rl/           # RL environment, rewards, rollout, and generation
-  utils/        # I/O, logging, and reproducibility helpers
-
-outputs/
-  benchmark_vs_rl/              # Main comparison tables and figures
-  distribution_aware_rl/        # RL distribution matching summaries
-  sanity_check/                 # Dataset validation and error analysis
-  subtype_analysis_multi_model/ # Subtype-level model comparison outputs
-```
-
-The export intentionally excludes the report itself, `agent/`, Hugging Face
-model caches, virtual environments, Python bytecode, and unrelated exploratory
-outputs.
 
 ## Setup
 
@@ -181,76 +141,3 @@ Run multi-model subtype analysis:
 py -m syntax_rl.analysis.subtype_analysis --config configs/subtype_analysis_multi_model.yaml
 ```
 
-## Optional Mistral Evaluation
-
-The repository also includes configs for evaluating the open-source
-instruction-tuned model `mistralai/Mistral-7B-Instruct-v0.3` through the same
-Hugging Face causal LM scoring interface.
-
-Mistral-7B is much larger than the GPT-2-family models used in the main report.
-It may download more than 10 GB of model weights and may require a GPU or enough
-CPU RAM plus disk offloading. On machines without enough memory, the run may
-load successfully but become very slow or stop during scoring.
-
-Run a tiny benchmark-vs-RL smoke test first:
-
-```powershell
-py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_smoke.yaml
-```
-
-If the smoke test works, run the full 240-vs-240 benchmark-vs-RL comparison:
-
-```powershell
-py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/benchmark_vs_rl_mistral_full.yaml
-```
-
-For subtype-level Mistral analysis, start with the small matched-subtype test:
-
-```powershell
-py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis_small_test.yaml
-```
-
-Then run the main matched-subtype Mistral analysis:
-
-```powershell
-py -m syntax_rl.evaluation.benchmark_vs_rl --config configs/mistral_subtype_analysis.yaml
-```
-
-Useful Mistral output locations:
-
-- `outputs/benchmark_vs_rl_mistral_smoke/`
-- `outputs/benchmark_vs_rl_mistral_full/`
-- `outputs/mistral_subtype_analysis_small_test/`
-- `outputs/mistral_subtype_analysis/`
-
-## First Files to Inspect
-
-For the main benchmark-vs-RL result:
-
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_overall_summary.csv`
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_shared_subtype_comparison.csv`
-- `outputs/benchmark_vs_rl/benchmark_vs_rl_report.md`
-- `outputs/benchmark_vs_rl/figures/benchmark_vs_rl_overall_accuracy_benchmark_vs_rl.png`
-
-For distribution matching:
-
-- `outputs/distribution_aware_rl/syntax_rl_distribution_aware_large_summary.md`
-- `outputs/distribution_aware_rl/syntax_rl_distribution_aware_large_distribution_comparison.csv`
-
-For sanity checks:
-
-- `outputs/sanity_check/sanity_check_report.md`
-- `outputs/sanity_check/sanity_check_summary.json`
-- `outputs/sanity_check/sanity_check_model_disagreement.csv`
-
-For subtype-level findings:
-
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_summary.md`
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_grouped_summary.csv`
-- `outputs/subtype_analysis_multi_model/large_controlled_subtype_analysis_multi_model_cross_model_comparison.csv`
-
-## Notes
-
-The repository is intentionally compact and result-focused. It is meant to make
-the final project results inspectable without uploading unrelated development
-files, private agent logs, model caches, or the report document itself.
